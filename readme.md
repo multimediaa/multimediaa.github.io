@@ -3,7 +3,7 @@ Gw males isi perkenalan, about us, basa-basi dsb.
 Nah, mending lu aja dah hehe..
 ```
 ```markdown
-Udh gw perbarui, klo masih kurang dsb, tambahkan sendiri :D
+udah gw perbarui klo masih kurang ya tambahin aja sendiri
 ```
 ```markdown
 Ok, thx ya! sementara mungkin kek gini dulu
@@ -23,7 +23,7 @@ Nah, jika kamu tertarik untuk menjelajahi karya-karya kami, silahkan kunjungi la
 > https://multimediaa.github.io
 
 
-## Halaman Web Ekstrakurikuler
+## Penerimaan Anggota Baru
 
 Setiap tahun, Multimedia membuka penerimaan anggota baru. Kunjungi media sosial kami untuk info lebih lanjut!
 
