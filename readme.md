@@ -14,13 +14,13 @@ Ok, thx ya! sementara mungkin kek gini dulu
 
 > *Tuangkan Kreativitasmu dalam Multimedia!*
 
-Ini adalah repositori untuk Ekstrakurikuler Multimedia kami di SMA Negeri 1 Baturraden. Rencananya laman web [multimedia.github.io](#) akan menampilkan karya-karya kreativitas dari siswa/i ekskul kami.
+Ini adalah repositori untuk Ekstrakurikuler Multimedia kami di SMA Negeri 1 Baturraden. Rencananya laman web [multimediaa.github.io](#) akan menampilkan karya-karya kreativitas dari siswa/i ekskul kami.
 
 Awalnya sebagai arsip, tetapi mungkin bisa digunakan lebih banyak lagi. Kami juga masih pemula dalam bidang ini. Makanya ini bisa jadi pembelajaran dan latihan.
 
 Nah, jika kamu tertarik untuk menjelajahi karya-karya kami, silahkan kunjungi laman web di bawah ini: 
 
-> https://multimedia.github.io
+> https://multimediaa.github.io
 
 
 ## Halaman Web Ekstrakurikuler
@@ -32,7 +32,7 @@ Setiap tahun, Multimedia membuka penerimaan anggota baru. Kunjungi media sosial 
 
 
 ## Kredit
----
+
 * Didukung oleh [GitHub Pages](https://pages.github.com/).
 * Template Videograph oleh [Colorlib](https://colorlib.com).
 * Penggunaan Icons oleh
