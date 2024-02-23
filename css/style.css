@@ -490,9 +490,9 @@ ol {
   position: relative;
   top: 100px;
   opacity: 0;
-  -webkit-transition: all, 0.35s;
-  -o-transition: all, 0.35s;
-  transition: all, 0.35s;
+  -webkit-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
 }
 .hero__text h2 {
   color: #ffffff;
@@ -504,17 +504,17 @@ ol {
   position: relative;
   top: 100px;
   opacity: 0;
-  -webkit-transition: all, 0.55s;
-  -o-transition: all, 0.55s;
-  transition: all, 0.55s;
+  -webkit-transition: all, 0.5s;
+  -o-transition: all, 0.5s;
+  transition: all, 0.5s;
 }
 .hero__text .primary-btn {
   position: relative;
   top: 100px;
   opacity: 0;
-  -webkit-transition: all, 0.75s;
-  -o-transition: all, 0.75s;
-  transition: all, 0.75s;
+  -webkit-transition: all, 0.7s;
+  -o-transition: all, 0.7s;
+  transition: all, 0.7s;
 }
 
 /*---------------------
