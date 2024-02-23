@@ -426,6 +426,28 @@ ol {
 /*---------------------
   Hero
 -----------------------*/
+
+/*--disable
+.hero__text h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  text-transform: uppercase;
+  margin: 0 auto 38px;} /* Menyesuaikan margin atas dan bawah dan mengatur samping auto */  
+
+/*--disable
+.hero__text span {
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 auto 18px;} /* Menyesuaikan margin atas dan bawah dan mengatur samping auto */
+
+/*--disable
+.hero__text .primary-btn {
+  font-family: "Play", sans-serif;
+  display: inline-block;
+  margin-top: 20px;} /* Menyesuaikan jarak dari atas */
+
 .hero__slider.owl-carousel .owl-item.active .hero__text span {
   top: 0;
   opacity: 1;
@@ -478,6 +500,7 @@ ol {
 .hero__item {
   height: 684px;
   padding-top: 255px;
+  text-align: center; /* Mengatur teks menjadi berada di tengah */
 }
 
 .hero__text span {
@@ -490,9 +513,9 @@ ol {
   position: relative;
   top: 100px;
   opacity: 0;
-  -webkit-transition: all, 0.3s;
-  -o-transition: all, 0.3s;
-  transition: all, 0.3s;
+  -webkit-transition: all, 0.4s;
+  -o-transition: all, 0.4s;
+  transition: all, 0.4s;
 }
 .hero__text h2 {
   color: #ffffff;
@@ -504,17 +527,17 @@ ol {
   position: relative;
   top: 100px;
   opacity: 0;
-  -webkit-transition: all, 0.5s;
-  -o-transition: all, 0.5s;
-  transition: all, 0.5s;
+  -webkit-transition: all, 0.6s;
+  -o-transition: all, 0.6s;
+  transition: all, 0.6s;
 }
 .hero__text .primary-btn {
   position: relative;
   top: 100px;
   opacity: 0;
-  -webkit-transition: all, 0.7s;
-  -o-transition: all, 0.7s;
-  transition: all, 0.7s;
+  -webkit-transition: all, 0.8s;
+  -o-transition: all, 0.8s;
+  transition: all, 0.8s;
 }
 
 /*---------------------
