@@ -427,39 +427,13 @@ ol {
   Hero
 -----------------------*/
 
-/*--disable
-.hero__text h2 {
-  font-size: 60px;
-  font-weight: 700;
-  line-height: 70px;
-  text-transform: uppercase;
-  margin: 0 auto 38px;} /* Menyesuaikan margin atas dan bawah dan mengatur samping auto */  
-
-/*--disable
-.hero__text span {
-  font-size: 15px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin: 0 auto 18px;} /* Menyesuaikan margin atas dan bawah dan mengatur samping auto */
-
-/*--disable
-.hero__text .primary-btn {
-  font-family: "Play", sans-serif;
-  display: inline-block;
-  margin-top: 20px;} /* Menyesuaikan jarak dari atas */
-
-.hero__slider.owl-carousel .owl-item.active .hero__text span {
-  top: 0;
-  opacity: 1;
-}
-.hero__slider.owl-carousel .owl-item.active .hero__text h2 {
-  top: 0;
-  opacity: 1;
-}
+.hero__slider.owl-carousel .owl-item.active .hero__text span,
+.hero__slider.owl-carousel .owl-item.active .hero__text h2,
 .hero__slider.owl-carousel .owl-item.active .hero__text .primary-btn {
   top: 0;
   opacity: 1;
 }
+
 .hero__slider.owl-carousel .owl-dots {
   position: absolute;
   left: 0;
@@ -497,10 +471,21 @@ ol {
   margin-right: 0;
 }
 
+/* Mengatur margin dan padding pada hero__item */
 .hero__item {
   height: 684px;
   padding-top: 255px;
-  text-align: center; /* Mengatur teks menjadi berada di tengah */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Menyesuaikan tinggi hero__item */
 }
 
 .hero__text span {
@@ -511,7 +496,6 @@ ol {
   text-transform: uppercase;
   margin-bottom: 18px;
   position: relative;
-  top: 100px;
   opacity: 0;
   -webkit-transition: all, 0.4s;
   -o-transition: all, 0.4s;
@@ -525,7 +509,6 @@ ol {
   text-transform: uppercase;
   margin-bottom: 38px;
   position: relative;
-  top: 100px;
   opacity: 0;
   -webkit-transition: all, 0.6s;
   -o-transition: all, 0.6s;
@@ -533,7 +516,6 @@ ol {
 }
 .hero__text .primary-btn {
   position: relative;
-  top: 100px;
   opacity: 0;
   -webkit-transition: all, 0.8s;
   -o-transition: all, 0.8s;
