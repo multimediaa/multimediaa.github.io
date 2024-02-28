@@ -446,6 +446,7 @@ ol {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
+  text-align: center; /* Untuk menengahkan dot jika berbentuk inline */
 }
 .hero__slider.owl-carousel .owl-dots button {
   color: #adadad;
@@ -496,7 +497,7 @@ ol {
 }
 .hero__text h2 {
   color: #ffffff;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 700;
   line-height: 70px;
   text-transform: uppercase;
