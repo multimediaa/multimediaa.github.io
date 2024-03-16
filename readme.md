@@ -1,18 +1,6 @@
-```markdown
-Gw males isi perkenalan, about us, basa-basi dsb.
-Nah, mending lu aja dah hehe..
-```
-```markdown
-udah gw perbarui klo masih kurang ya tambahin aja sendiri
-```
-```markdown
-Ok, thx ya! sementara mungkin kek gini dulu
-```
-
 # Selamat Datang di Repositori Multimedia
-> *Stop Dreaming, Start Action*
 
-> *Tuangkan Kreativitasmu dalam Multimedia!*
+![**README**](./img/readme.JPG)
 
 Ini adalah repositori untuk Ekstrakurikuler Multimedia kami di SMA Negeri 1 Baturraden. Rencananya laman web [multimediaa.github.io](https://multimediaa.github.io) akan menampilkan galeri karya dari anggota ekskul kami.
 
@@ -40,3 +28,16 @@ Setiap tahun, Multimedia membuka penerimaan anggota baru. Kunjungi media sosial 
 
 
 **Catatan:** Informasi hak cipta tidak dapat diubah/ dihapus kecuali lisensi telah dibeli. Menghapus informasi hak cipta tanpa lisensi akan mengakibatkan suspensi hosting dan/atau nama domain Anda.
+
+
+## Obrolan
+
+```css
+@etrazc: Gw males isi perkenalan, about us, basa-basi dsb. Nah, mending lu aja dah hehe..
+```
+```css
+@zefazen: udah gw perbarui klo masih kurang ya tambahin aja sendiri
+```
+```css
+@stllr-rain: Ok, thx ya! sementara mungkin kek gini dulu
+```

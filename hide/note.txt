@@ -1,0 +1,8 @@
+## Repository
+https://github.com/multimediaa/multimediaa.github.io
+
+## Laman Web
+https://multimediaa.github.io
+
+## Languages
+HTML, CSS, SCSS, dan JavaScript.

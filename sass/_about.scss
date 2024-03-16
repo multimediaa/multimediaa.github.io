@@ -37,11 +37,11 @@
 /*---------------------
   Testimonial
 -----------------------*/
-.testimonial {
+.quotes {
   padding-bottom: 60px;
 }
 
-.testimonial__slider {
+.quotes__slider {
 
   &.owl-carousel {
 
@@ -75,7 +75,7 @@
   }
 }
 
-.testimonial__text {
+.quotes__text {
   padding: 30px 40px 25px 30px;
   border: 1px solid #3D3A64;
   margin-bottom: 25px;
@@ -92,11 +92,11 @@
   }
 }
 
-.testimonial__author {
+.quotes__author {
   padding-left: 30px;
 }
 
-.testimonial__author__pic {
+.quotes__author__pic {
   float: left;
   margin-right: 20px;
   
@@ -107,7 +107,7 @@
   }
 }
 
-.testimonial__author__text {
+.quotes__author__text {
   overflow: hidden;
 
   h5 {

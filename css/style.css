@@ -6,8 +6,7 @@
   Version: 1.0
   Created: Colorib
 ******************************************************************/
-/*------------------------------------------------------------------
-[Table of contents]
+/* [Table of contents] -------------------------------------------
 
 1.  Template default CSS
 	1.1	Variables
@@ -22,8 +21,8 @@
 7.  Team Section
 8.  Latest Section
 9.  Contact
-10.  Footer Style
--------------------------------------------------------------------*/
+10.  Footer Style ----------------------------------------------*/
+
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
@@ -748,7 +747,7 @@ ol {
   top: 0;
   height: 100%;
   width: 100%;
-  background: url(../img/team/team-hover.png);
+  background: url(../img/team/team-hover.PNG);
   content: "";
   z-index: -1;
 }
@@ -791,12 +790,6 @@ ol {
 .blog__item.latest__item {
   margin-bottom: 0;
 }
-.blog__item.latest__item:hover {
-  border: 1px solid #222222 !important;
-  background: url(../img/blog/blog-1.jpg);
-  background-size: cover;
-}
-
 .latest__slider.owl-carousel .owl-item .col-lg-4 {
   max-width: 100%;
 }
@@ -818,9 +811,37 @@ ol {
   margin-right: 0;
 }
 
+/* ===== Cover Blog ===== */
+.blog__item.latest__item:hover {
+  border: 1px solid #222222 !important;
+  background: url(../img/blog/dark/blog-01.JPG);
+  background-size: cover;
+}
+.blog__item.latest__item.blog-2:hover {
+  border: 1px solid #222222 !important;
+  background: url(../img/blog/dark/blog-02.JPG);
+  background-size: cover;
+}
+.blog__item.latest__item.blog-3:hover {
+  border: 1px solid #222222 !important;
+  background: url(../img/blog/dark/blog-03.JPG);
+  background-size: cover;
+}
+.blog__item.latest__item.blog-4:hover {
+  border: 1px solid #222222 !important;
+  background: url(../img/blog/dark/blog-04.JPG);
+  background-size: cover;
+}
+.blog__item.latest__item.blog-5:hover {
+  border: 1px solid #222222 !important;
+  background: url(../img/blog/dark/blog-05.JPG);
+  background-size: cover;
+}
+
 /*---------------------
   Call To Active
 -----------------------*/
+
 .callto {
   padding-top: 130px;
 }
@@ -828,7 +849,11 @@ ol {
   padding-top: 0;
   background: #100028;
 }
-
+.callto__text {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px; /* Lebar 600px atau "auto" */
+}
 .callto__text h2 {
   color: #ffffff;
   font-size: 42px;
@@ -1041,54 +1066,52 @@ ol {
 .about__pic__item.about__pic__item--large {
   height: 490px;
 }
-
 .about__text {
   padding-left: 30px;
 }
 .about__text .services__item .services__item__icon:after {
   border-color: #281A3E;
 }
-
 .about__text__desc {
   margin-top: -10px;
 }
 
 /*---------------------
-  Testimonial
+  Quotes / Testimonial
 -----------------------*/
-.testimonial {
+.quotes {
   padding-bottom: 60px;
 }
 
-.testimonial__slider.owl-carousel .owl-item .col-lg-4 {
+.quotes__slider.owl-carousel .owl-item .col-lg-4 {
   max-width: 100%;
 }
-.testimonial__slider.owl-carousel .owl-dots {
+.quotes__slider.owl-carousel .owl-dots {
   text-align: center;
   padding-top: 35px;
 }
-.testimonial__slider.owl-carousel .owl-dots button {
+.quotes__slider.owl-carousel .owl-dots button {
   height: 8px;
   width: 8px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   margin-right: 10px;
 }
-.testimonial__slider.owl-carousel .owl-dots button.active {
+.quotes__slider.owl-carousel .owl-dots button.active {
   background: #00bfe7;
 }
-.testimonial__slider.owl-carousel .owl-dots button:last-child {
+.quotes__slider.owl-carousel .owl-dots button:last-child {
   margin-right: 0;
 }
 
-.testimonial__text {
+.quotes__text {
   padding: 30px 40px 25px 30px;
   border: 1px solid #3D3A64;
   margin-bottom: 25px;
   position: relative;
   z-index: 9;
 }
-.testimonial__text P {
+.quotes__text P {
   color: #ffffff;
   font-size: 18px;
   font-weight: 300;
@@ -1097,29 +1120,29 @@ ol {
   margin-bottom: 0;
 }
 
-.testimonial__author {
+.quotes__author {
   padding-left: 30px;
 }
 
-.testimonial__author__pic {
+.quotes__author__pic {
   float: left;
   margin-right: 20px;
 }
-.testimonial__author__pic img {
+.quotes__author__pic img {
   height: 50px;
   width: 50px;
   border-radius: 50%;
 }
 
-.testimonial__author__text {
+.quotes__author__text {
   overflow: hidden;
 }
-.testimonial__author__text h5 {
+.quotes__author__text h5 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: 8px;
 }
-.testimonial__author__text span {
+.quotes__author__text span {
   color: #ffffff;
   font-size: 14px;
   font-weight: 300px;
@@ -1129,6 +1152,7 @@ ol {
 /*---------------------
   Services
 -----------------------*/
+
 .services {
   background: #100028;
   padding-bottom: 60px;
@@ -1177,6 +1201,8 @@ ol {
   -o-transition: all, 0.5s;
   transition: all, 0.5s;
 }
+
+
 
 /*---------------------
   Services Page

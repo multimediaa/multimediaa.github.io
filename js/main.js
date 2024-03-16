@@ -83,7 +83,7 @@
     /*------------------
         Testimonial Slider
     --------------------*/
-    $(".testimonial__slider").owlCarousel({
+    $(".quotes__slider").owlCarousel({
         loop: true,
         margin: 0,
         items: 3,
