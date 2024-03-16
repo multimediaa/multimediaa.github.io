@@ -1,3 +1,8 @@
+> ⚠️ Sedang dalam pengembangan. Bukan proyek final ⚠️
+
+> Kami membutuhkan kontributor yang bisa membantu dalam menambahkan fungsi aktif pada laman web. Sederhanya tidak perlu dilakukan secara manual. Bagian-bagian ini meliputi comment, contact form, multiple page (khususnya pada blog), navigasi berupa nomor halaman, dan masih banyak lagi.
+
+
 # Selamat Datang di Repositori Multimedia
 
 ![**README**](./img/readme.JPG)
@@ -28,16 +33,3 @@ Setiap tahun, Multimedia membuka penerimaan anggota baru. Kunjungi media sosial 
 
 
 **Catatan:** Informasi hak cipta tidak dapat diubah/ dihapus kecuali lisensi telah dibeli. Menghapus informasi hak cipta tanpa lisensi akan mengakibatkan suspensi hosting dan/atau nama domain Anda.
-
-
-## Obrolan
-
-```css
-@etrazc: Gw males isi perkenalan, about us, basa-basi dsb. Nah, mending lu aja dah hehe..
-```
-```css
-@zefazen: udah gw perbarui klo masih kurang ya tambahin aja sendiri
-```
-```css
-@stllr-rain: Ok, thx ya! sementara mungkin kek gini dulu
-```
