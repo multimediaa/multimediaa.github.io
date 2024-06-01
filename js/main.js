@@ -16,7 +16,7 @@
     --------------------*/
     $(window).on('load', function () {
         $(".loader").fadeOut();
-        $("#preloder").delay(200).fadeOut("slow");
+        $("#preloder").delay(175).fadeOut("slow");
 
         /*------------------
             Portfolio filter

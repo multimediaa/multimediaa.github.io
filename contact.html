@@ -2,24 +2,23 @@
 <html lang="id">
 
 <head>
+    <!-- HTML Meta Tags -->
     <meta charset="UTF-8">
     <meta name="description" content="Ekstrakurikuler Multimedia | SMA Negeri 1 Baturraden">
     <meta name="keywords" content="Multimedia, mm, Ekstrakurikuler, ekskul, smabara, video, fotografi, editing, edit, kreativitas, kreatif">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Multimedia | Kontak</title>
-
+    <!-- Facebook Meta Tags --><!-- Twitter Meta Tags -->
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch.PNG">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32.PNG">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16.PNG">
-    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon/favicon.ICO">
     <link rel="manifest" href="./img/favicon/site.webmanifest">
-
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
@@ -28,7 +27,6 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-
 </head>
 
 <body>
@@ -53,22 +51,22 @@
                                 <li><a href="/">Beranda</a></li>
                                 <li><a href="./about.html">Profil</a>
                                     <ul class="dropdown">
-                                        <li><a href="#">Profil Multimedia</a></li>
-                                        <li><a href="#">Sejarah Singkat</a></li>
-                                        <li><a href="#">Visi dan Misi</a></li>
-                                        <li><a href="#">Struktur Kepengurusan</a></li>
+                                        <li><a href="./about.html">Profil Multimedia</a></li>
+                                        <li><a href="./about.html">Sejarah Singkat</a></li>
+                                        <li><a href="./about.html">Visi dan Misi</a></li>
+                                        <li><a href="./about.html">Struktur Kepengurusan</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="./proker.html">Program Kerja</a>
                                     <ul class="dropdown">
-                                        <li><a href="#">Desain Grafis</a></li>
-                                        <li><a href="#">Editing Foto & Video</a></li>
-                                        <li><a href="#">Pelatihan Microsoft Office</a></li>
-                                        <li><a href="#">Pembuatan Video Profil Sekolah</a></li>
+                                        <li><a href="./proker.html">Desain Grafis</a></li>
+                                        <li><a href="./proker.html">Editing Foto & Video</a></li>
+                                        <li><a href="./proker.html">Pelatihan Microsoft Office</a></li>
+                                        <li><a href="./proker.html">Lomba Kompetensi Multimedia</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./404.html">Galeri Karya</a></li>
-                                <li><a href="https://multimediaa.github.io/blog/">Blog</a></li>
+                                <li><a href="#">Galeri Karya</a></li>
+                                <li><a href="./blog/blog.html">Blog</a></li>
                                 <li class="active"><a href="./contact.html">Kontak</a></li>
                             </ul>
                         </nav>
@@ -91,7 +89,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Kontak dan Alamat Kami</h2>
+                        <h2>Kontak</h2>
                         <div class="breadcrumb__links">
                             <a href="/">Home</a>
                             <span>Kontak</span>
@@ -136,7 +134,7 @@
                         </div>
                         <div class="contact__widget__item__text">
                             <h4>Email</h4>
-                            <p>info.multimediaa@gmail.com</p>
+                            <p>multimediaa.info@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -158,13 +156,17 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="contact__form">
-                        <h3>Formulir Kontak</h3>
-                        <form action="#">
-                            <input type="text" placeholder="Nama">
-                            <input type="text" placeholder="Email">
+                        <h3>Tinggalkan Pesan</h3>
+                        <form action="https://formsubmit.co/multimediaa.info@gmail.com" method="POST">
+                            <input type="text" name="name" placeholder="Nama" required>
+                            <input type="email" name="email" placeholder="Email" required>
                             <input type="text" placeholder="Topik">
-                            <textarea placeholder="Tinggalkan Pesan"></textarea>
+                            <textarea name="message" placeholder="Isi Pesan" required></textarea>
                             <button type="submit" class="site-btn">Kirim</button>
+                            <!-- Configuration -->
+                            <input type="hidden" name="_subject" value="Multimediaa | Pesan Baru">
+                            <input type="hidden" name="_template" value="table">
+                            <!-- <input type="hidden" name="_next" value="#"> -->
                         </form>
                     </div>
                 </div>
@@ -197,19 +199,21 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="footer__option__item">
                             <h5>Tentang kami</h5>
-                            <p>(Deskripsi mengenai "Profil Multimedia")</p>
-                            <a href="#" class="read__more">Selengkapnya <span class="arrow_right"></span></a>
+                            <p>Salah satu ekstrakurikuler di SMA Negeri 1 Baturraden yang berfokus dalam bidang Desain Grafis,
+                                Editing Foto dan Video, Pelatihan Microsoft Office, dan masih banyak lagi.
+                            </p>
+                            <a href="./about.html" class="read__more">Selengkapnya <span class="arrow_right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3">
                         <div class="footer__option__item">
                             <h5>Siapakah kami?</h5>
                             <ul>
-                                <li><a href="#">Latar Belakang</a></li>
-                                <li><a href="#">Maksud dan Tujuan</a></li>
-                                <li><a href="#">Struktur Kepengurusan</a></li>
-                                <li><a href="#">Hubungi Kami</a></li>
-                                <li><a href="#">Lokasi</a></li>      
+                                <li><a href="./about.html">Latar Belakang</a></li>
+                                <li><a href="./about.html">Maksud dan Tujuan</a></li>
+                                <li><a href="./about.html">Struktur Kepengurusan</a></li>
+                                <li><a href="./contact.html">Hubungi Kami</a></li>
+                                <li><a href="./contact.html">Lokasi</a></li>      
                             </ul>
                         </div>
                     </div>
@@ -217,10 +221,10 @@
                         <div class="footer__option__item">
                             <h5>Program Kerja</h5>
                             <ul>
-                                <li><a href="#">Desain Grafis</a></li>
-                                <li><a href="#">Editing Foto & Video</a></li>
-                                <li><a href="#">Pelatihan Microsoft Office</a></li>
-                                <li><a href="#">Pembuatan Video Profil Sekolah</a></li>
+                                <li><a href="./proker.html">Desain Grafis</a></li>
+                                <li><a href="./proker.html">Editing Foto & Video</a></li>
+                                <li><a href="./proker.html">Pelatihan Microsoft Office</a></li>
+                                <li><a href="./proker.html">Lomba Kompetensi Multimedia</a></li>
                             </ul>
                         </div>
                     </div>
@@ -228,8 +232,9 @@
                         <div class="footer__option__item">
                             <h5>Surat Kabar</h5>
                             <p>Ikuti kami agar tidak ketinggalan info terupdate.</p>
-                            <form action="#">
-                                <input type="text" placeholder="Email">
+                            <form action="https://formspree.io/f/mleqknwy" method="POST">
+                                <input type="email" name="email" placeholder="Email" required>
+                                <textarea name="message" hidden></textarea>
                                 <button type="submit"><i class="fa fa-send"></i></button>
                             </form>
                         </div>
@@ -239,8 +244,8 @@
             <div class="footer__copyright">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <p class="footer__copyright__text">&copy; 2020-<script>document.write(new Date().getFullYear());</script>
-                            <a href="/" target="_blank">Multimedia</a>. All rights reserved | Videograph by 
+                        <p class="footer__copyright__text">&copy; <script>document.write(new Date().getFullYear());</script>
+                            <a href="https://multimediaa.github.io" target="_blank">Multimedia Smabara</a>. All rights reserved | Videograph by 
                             <a href="https://colorlib.com" target="_blank">Colorlib</a>
                         </p>
                     </div>
@@ -260,5 +265,4 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>
-
 </html>

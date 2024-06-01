@@ -2,9 +2,9 @@
 
 ![**README**](./img/readme.JPG)
 
-Ini adalah repositori untuk Ekstrakurikuler Multimedia kami di SMA Negeri 1 Baturraden. Rencananya laman web [multimediaa.github.io](https://multimediaa.github.io) akan menampilkan galeri karya dari anggota ekskul kami.
+Ini adalah repositori untuk Ekstrakurikuler Multimedia kami di SMA Negeri 1 Baturraden. Rencananya laman web [multimediaa.github.io](https://multimediaa.github.io) akan digunakan sebagai portofolio yang menampilkan galeri karya dari anggota ekskul kami.
 
-Awalnya sebagai arsip, tetapi mungkin bisa digunakan lebih banyak lagi. Kami juga masih pemula dalam bidang ini. Makanya ini bisa jadi pembelajaran dan latihan.
+Selain itu, laman blog juga akan digunakan untuk berbagi pengetahuan mulai dari tips dan tutorial mengenai program kerja kami. Kami juga masih pemula dalam bidang pemrograman. Makanya ini bisa menjadi pembelajaran dan latihan.
 
 Nah, jika kamu tertarik untuk menjelajahi karya-karya kami, silahkan kunjungi laman web kami :D
 
@@ -17,27 +17,19 @@ Setiap tahun, Multimedia membuka penerimaan anggota baru. Kunjungi media sosial 
 - [Youtube](https://www.youtube.com/@multimediasmabara7785)
 
 
-## Kredit
+## Kredit dan Lisensi
 
-* Didukung oleh [GitHub Pages](https://pages.github.com/).
-* Template Videograph oleh [Colorlib](https://colorlib.com).
-* Penggunaan Icons oleh
+<details>
+  <summary><strong>Kredit</strong></summary>
+
+* Videograph by [Colorlib](https://colorlib.com).
+* Penggunaan Icons: 
 [Flaticon](https://www.flaticon.com),
 [Elegant Icons](https://www.elegantthemes.com/blog/resources/elegant-icon-font), dan
 [Font Awesome](https://fontawesome.com).
-
-
-**Catatan:** Informasi hak cipta tidak dapat diubah/ dihapus kecuali lisensi telah dibeli. Menghapus informasi hak cipta tanpa lisensi akan mengakibatkan suspensi hosting dan/atau nama domain Anda.
-
-
-## Obrolan
-
-```css
-@etrazc: Gw males isi perkenalan, about us, basa-basi dsb. Nah, mending lu aja dah hehe..
-```
-```css
-@zefazen: udah gw perbarui klo masih kurang ya tambahin aja sendiri
-```
-```css
-@stllr-rain: Ok, thx ya! sementara mungkin kek gini dulu
-```
+</details>
+<br />
+<details>
+  <summary><strong>Lisensi</strong></summary>
+  Kami menggunakan template Videograph yang diunduh secara gratis di <a href="https://themewagon.com/license">ThemeWagon</a> dan dapat digunakan untuk keperluan pribadi & komersial.
+</details>
