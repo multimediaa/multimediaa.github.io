@@ -31,6 +31,10 @@
         }
     });
 
+    /* Loading v2 - Page Loader */
+    jQuery("#load").fadeOut();
+    jQuery("#loading").delay().fadeOut("");
+
     /*------------------
         Background Set
     --------------------*/
