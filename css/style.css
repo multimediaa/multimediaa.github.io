@@ -302,22 +302,27 @@ ol {
   bottom: 0px;
   overflow: hidden !important;
   right: 0px;
-  z-index: 999999; }
+  z-index: 999999;
+}
+
 #loading-center {
   background: url(../img/page/load.GIF) no-repeat scroll center center;
   background-size: 20%;
   width: 100%;
   height: 100%;
-  position: relative; }
+  position: relative;
+}
+
 .loaderv2 {
-width: 3em;
-height: 3em;
-margin: auto;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
-position: absolute; }
+  width: 3em;
+  height: 3em;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
 
 /*---------------------
   Header
