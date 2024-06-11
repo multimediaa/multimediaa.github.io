@@ -2275,3 +2275,13 @@ ol {
     padding: 30px 40px 35px 35px;
   }
 }
+/* Cursor */
+body {
+  cursor: url('../img/cursor/c-pointer.PNG'), auto;
+}
+a, i, li, nav, button {
+  cursor: url('../img/cursor/c-link.PNG'), auto;
+}
+input {
+  cursor: url('../img/cursor/text.PNG'), auto;
+}
