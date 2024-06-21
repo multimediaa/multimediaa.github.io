@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Mengenal Dasar-dasar Pembuatan Website",
+    "tag": "Website",
+    "date": "22 April 2024",
+    "img": "/img/blog/light/web.JPG",
+    "url": "mengenal-dasar-dasar-pembuatan-website.html"
+  },
+  {
+    "title": "Demonstrasi Kode: Cara Kerja Sebuah Website",
+    "tag": "Website",
+    "date": "29 April 2024",
+    "img": "/img/blog/light/codepen.JPG",
+    "url": "demonstrasi-kode_cara-kerja-sebuah-website.html"
+  },
+  {
+    "title": "Pemanfaatan Google Sites dalam Pembuatan Website",
+    "tag": "Website",
+    "date": "6 Mei 2024",
+    "img": "/img/blog/light/sites.JPG",
+    "url": "pemanfaatan-google-sites-dalam-pembuatan-website.html"
+  }
+]

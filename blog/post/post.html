@@ -8,14 +8,14 @@
     <meta name="keywords" content="Multimedia, mm, Ekstrakurikuler, ekskul, smabara, video, fotografi, editing, edit, kreativitas, kreatif">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pemanfaatan Google Sites dalam Pembuatan Website</title>
+    <title>Judul Postingan</title>
     <!-- Facebook Meta Tags --><!-- Twitter Meta Tags -->
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch.PNG">
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32.PNG">
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16.PNG">
-    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon/favicon.ICO">
-    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch.PNG">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32.PNG">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16.PNG">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon/favicon.ICO">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -30,10 +30,14 @@
 </head>
 
 <body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
+    <!-- Loader -->
+    <div id="loading">
+        <div id="loading-center"></div>
     </div>
+
+    <!-- Cursor Circle -->
+    <div class="cur1"></div>
+    <div class="cur2"></div>
 
     <!-- Header Section Begin -->
     <header class="header">
@@ -41,7 +45,7 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="/"><img src="./img/logo/logo.PNG" alt="Multimedia"></a>
+                        <a href="/"><img src="/img/logo/logo.PNG" alt="Multimedia"></a>
                     </div>
                 </div>
                 <div class="col-lg-10">
@@ -65,7 +69,7 @@
                                         <li><a href="./proker.html">Lomba Kompetensi Multimedia</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Galeri Karya</a></li>
+                                <li><a href="javascript:void(0)">Galeri Karya</a></li>
                                 <li class="active"><a href="../blog.html">Blog</a></li>
                                 <li><a href="./contact.html">Kontak</a></li>
                             </ul>
@@ -89,10 +93,10 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
                     <div class="blog__hero__text">
-                        <h2>Pemanfaatan Google Sites dalam Pembuatan Website</h2>
+                        <h2 id="current-pt">Judul Postingan</h2>
                         <ul>
-                            <li><span>ZefaZen</span></li>
-                            <li>6 Mei 2024</li>
+                            <li><span>Nama Penulis</span></li>
+                            <li>Tanggal Upload</li>
                         </ul>
                     </div>
                 </div>
@@ -108,20 +112,29 @@
                 <div class="col-lg-8">
                     <div class="blog__details__content">
                         <div class="blog__details__text">
-                            <p>Videos with a wow factor are always more shareable than those without it. The wow factor
-                                is hard to define, but it generally refers to any content that makes viewers think,
-                                “Wow!” For example, consider those viral videos of athletes making insanely difficult
-                                basketball trick shots, such as shooting a basket while doing a backwards flip on a
-                                trampoline.</p>
-                            <p>That’s the kind of catchy content that makes people want to share it with their friends.
-                                With a little clever marketing, you can put that wow factor to work for your business’
-                                videos.</p>
+                            <h1>Headings Tingkat 1</h1>
+                            <h2>Headings Tingkat 2</h2>
+                            <h3>Headings Tingkat 3</h3>
+                            <h4>Headings Tingkat 4</h4>
+                            <h5>Headings Tingkat 5</h5>
+                            <h6>Headings Tingkat 6</h6>
+                        </div>
+                        <div class="blog__details__list">
+                            <p>List item 1</p>
+                            <p>List item 2</p>
+                            <p>List item 3</p>
                         </div>
                         <div class="blog__details__quote">
                             <p>Create horizontal, square and vertical videos that are ready to be exported to your
                                 Instagram video stories and posts. Perfect for any social network!</p>
                             <h6>Max Desmarais</h6>
                             <i class="fa fa-quote-right"></i>
+                        </div>
+                        <div class="blog__details__text">
+                            <pre>// Contoh Format Kode<br />function helloWorld() {
+                                <br />&nbsp;&nbsp;console.log("Hello, World!");
+                                <br />}
+                                <br />helloWorld();</pre>
                         </div>
                         <div class="blog__details__desc">
                             <p>An average Internet user watches about 1.5 hours of online video every day. This means
@@ -130,37 +143,73 @@
                             <p>Some of them are inherently more shareable on social media than others. Here’s a quick
                                 look at how to make users want to share your videos on social media.</p>
                         </div>
+                        <div class="blog__details__table">
+                            <table>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Jenis Kegiatan</th>
+                                    <th>Materi Kegiatan</th>
+                                    <th>Waktu</th>
+                                    <th>Keterangan</th>
+                                </tr>
+                                <tr>
+                                    <td>1.</td>
+                                    <td>Pengenalan Multimedia</td>
+                                    <td>Menjelaskan tentang multimedia dan pengenalan aplikasi/software yang akan digunakan</td>
+                                    <td>1 pekan</td>
+                                    <td>Materi diisi oleh guru pembimbing dan alumnus</td>
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>Membuat karya yang berkaitan dengan desain grafis</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>a. Membuat Logo</td>
+                                    <td>Cara membuat logo menggunakan software Corel Draw atau aplikasi sejenisnya</td>
+                                    <td>1 pekan</td>
+                                    <td>Tema sesuai dengan kreatifitas siswa</td>
+                                </tr>
+                            </table>
+                        </div>
                         <div class="blog__details__tags">
                             <span><i class="fa fa-tag"></i> Tag:</span>
-                            <a href="#">Website</a>
-                            <a href="#">Google Sites</a>
+                            <a href="#">Label 1</a>
                         </div>
                         <div class="blog__details__option">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <a href="#" class="blog__details__option__item">
+                                    <a href="#" id="prev-post" class="blog__details__option__item">
                                         <h5><i class="fa fa-angle-left"></i> Sebelumnya</h5>
                                         <div class="blog__details__option__item__img">
-                                            <img src="/blog/img/blog/prev/prev-01.JPG" alt="Sebelumnya">
+                                            <img src="" alt="Sebelumnya" id="prev-img" class="resize">
                                         </div>
                                         <div class="blog__details__option__item__text">
-                                            <h6>36 Jam Belajar Komputer Microsoft Office 2021...</h6>
-                                            <span>Nov 27, 2022</span>
-                                        </div>
+                                            <h6 id="prev-title"></h6>
+                                            <span id="prev-date"></span>
+                                        </div>  
                                     </a>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <a href="#" class="blog__details__option__item blog__details__option__item--right">
+                                    <a href="" id="next-post" class="blog__details__option__item blog__details__option__item--right">
                                         <h5>Selanjutnya <i class="fa fa-angle-right"></i></h5>
                                         <div class="blog__details__option__item__img">
-                                            <img src="/blog/img/blog/next/next-01.JPG" alt="Selanjutnya">
+                                            <img src="" alt="Selanjutnya" id="next-img" class="resize">
                                         </div>
                                         <div class="blog__details__option__item__text">
-                                            <h6>Belajar Pemrograman Web untuk Pemula...</h6>
-                                            <span>Nov 27, 2022</span>
+                                            <h6 id="next-title"></h6>
+                                            <span id="next-date"></span>
                                         </div>
                                     </a>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="blog__details__recent">
+                            <h4>Postingan terkait ..</h4>
+                            <div class="row" id="similar-post">
                             </div>
                         </div>
                         <div class="blog__details__comment">
@@ -188,7 +237,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="footer__top__logo">
-                            <a href="/"><img src="./img/logo/logo.PNG" alt="Multimedia"></a>
+                            <a href="/"><img src="/img/logo/logo.PNG" alt="Multimedia"></a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">

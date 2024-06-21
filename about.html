@@ -14,14 +14,14 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Multimedia | Profil">
     <meta property="og:description" content="Kenali lebih dekat tentang Ekstrakulikuler Multimedia">
-    <meta property="og:image" content="https://multimediaa.github.io/img/opengraph/v2/card-02.JPG">
+    <meta property="og:image" content="https://multimediaa.github.io/img/opengraph/v1/card-02.JPG">
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="multimediaa.github.io">
     <meta property="twitter:url" content="https://multimediaa.github.io/about.html">
     <meta name="twitter:title" content="Multimedia | Profil">
     <meta name="twitter:description" content="Kenali lebih dekat tentang Ekstrakulikuler Multimedia">
-    <meta name="twitter:image" content="https://multimediaa.github.io/img/opengraph/v2/card-02.JPG">
+    <meta name="twitter:image" content="https://multimediaa.github.io/img/opengraph/v1/card-02.JPG">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch.PNG">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32.PNG">
@@ -31,10 +31,13 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6.5.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
@@ -46,6 +49,10 @@
     <div id="loading">
         <div id="loading-center"></div>
     </div>
+
+    <!-- Cursor Circle -->
+    <div class="cur1"></div>
+    <div class="cur2"></div>
 
     <!-- Header Section Begin -->
     <header class="header">
@@ -64,8 +71,8 @@
                                 <li class="active"><a href="./about.html">Profil</a>
                                     <ul class="dropdown">
                                         <li><a href="./about.html">Profil Multimedia</a></li>
-                                        <li><a href="./about.html">Sejarah Singkat</a></li>
                                         <li><a href="./about.html">Visi dan Misi</a></li>
+                                        <li><a href="./about.html">Latar Belakang</a></li>
                                         <li><a href="./about.html">Struktur Kepengurusan</a></li>
                                     </ul>
                                 </li>
@@ -79,13 +86,22 @@
                                 </li>
                                 <li><a href="#">Galeri Karya</a></li>
                                 <li><a href="/blog/blog.html">Blog</a></li>
-                                <li><a href="./contact.html">Kontak</a></li>
+                                <li><a href="javascript:void(0)">Informasi</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Disclaimer</a></li>
+                                        <li><a href="#">Sitemap</a></li>
+                                        <li><a href="./contact.html">Kontak</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </nav>
                         <div class="header__nav__social">
-                            <a href="https://github.com/multimediaa"><i class="fa fa-github"></i></a>
-                            <a href="https://www.instagram.com/multimedia_smabara/"><i class="fa fa-instagram"></i></a>
-                            <a href="https://www.youtube.com/@multimediasmabara7785"><i class="fa fa-youtube-play"></i></a>
+                            <a href="https://github.com/multimediaa"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/multimedia_smabara/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@multimediasmabara7785"><i class="fa-brands fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +117,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Profil Multimedia</h2>
+                        <h2>Profil</h2>
                         <div class="breadcrumb__links">
                             <a href="/">Home</a>
                             <span>Profil</span>
@@ -141,7 +157,7 @@
                 <div class="col-lg-6">
                     <div class="about__text">
                         <div class="section-title">
-                            <span>Tentang</span>
+                            <span>Profil</span>
                             <h2>MULTIMEDIA</h2>
                         </div>
                         <div class="about__text__desc">
@@ -181,27 +197,17 @@
     <section class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <div class="about__text">
-                        <div class="section-title">
-                            <span>Sejarah</span>
-                            <h2>Singkat</h2>
+                        <div class="section-title center-title">
+                            <span>Latar</span>
+                            <h2>Belakang</h2>
                         </div>
                         <div class="about__text__desc">
                             <p>Whether you’re halfway through the editing process, or you haven’t even started, our post 
-                                production services can put the finishing touches.</p>
-                        </div>    
-                    </div>   
-                </div>
-                <div class="col-lg-6">
-                    <div class="about__text">
-                        <div class="section-title">
-                            <span>Struktur</span>
-                            <h2>Kepengurusan</h2>
-                        </div>
-                        <div class="about__text__desc">
-                            <p>Whether you’re halfway through the editing process, or you haven’t even started, our post 
-                                production services can put the finishing touches.</p>
+                                production services can put the finishing touches. Whether you’re halfway through the 
+                                editing process, or you haven’t even started, our post production services can put the 
+                                finishing touches.</p>
                         </div>    
                     </div>   
                 </div>
@@ -209,6 +215,178 @@
         </div>
     </section>
     <!-- About Section End -->
+
+    <!-- About Section Begin -->
+    <section class="grid">
+      <div class="grid-title grid-left grid-center">
+        <span>Struktur Kepengurusan</span>
+        <h2>2023/2024</h2>
+      </div>
+      <div class="grid-container">
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="./img/team/team-01.JPG" class="" alt="Ketua">
+            <h3>Moza Dwi Ramadhan</h3>
+            <span>Ketua</span>
+            <div class="grid-social">
+              <a href="https://www.instagram.com/frmozaa" title="frmozaa"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.youtube.com/@kuroo—" title="kuroo—"><i class="fa-brands fa-youtube"></i></a>
+              <a href="http://discordapp.com/users/cbsh" title="cbsh"><i class="fa-brands fa-discord"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item active">
+          <div class="grid-item-content">
+            <img src="./img/team/team-02.JPG" alt="Wakil Ketua">
+            <h3>Muafa Rizqullah</h3>
+            <span>Wakil Ketua</span>
+            <div class="grid-social">
+              <a href="https://www.instagram.com/mr.faa08" title="mr.faa08"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="https://ui-avatars.com/api/?name=Anita+Nur+Ramadani&background=2090DD&color=111&font-size=0.35&length=3" alt="Sekretaris 1">
+            <h3>Anita Nur Ramadani</h3>
+            <span>Sekretaris 1</span>
+            <div class="grid-social">
+              <a href="https://www.instagram.com/anitaanrr" title="anitaanrr"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.tiktok.com/@4nitaa.ce" title="4nitaa.ce"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="https://ui-avatars.com/api/?name=Revana+Adis&background=2090DD&color=111&font-size=0.35&length=2" alt="Sekretaris 2">
+            <h3>Revana Adis</h3>
+            <span>Sekretaris 2</span>
+            <div class="grid-social">
+              <a href="https://www.instagram.com/rrvna.132" title="rrvna.132"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.tiktok.com/stuck.in_260" title="stuck.in_260"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="https://ui-avatars.com/api/?name=Zuhra+Hanani+Ramadhina&background=2090DD&color=111&font-size=0.35&length=3" alt="Sekretaris 3">
+            <h3>Zuhra Hanani Ramadhina</h3>
+            <span>Sekretaris 3</span>
+            <div class="grid-social">
+              <a href="https://www.instagram.com/svnprincev" title="svnprincev"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="https://ui-avatars.com/api/?name=Rahmadita+Putri+Fianti&background=2090DD&color=111&font-size=0.35&length=3" alt="Bendahara 1">
+            <h3>Rahmadita Putri Fianti</h3>
+            <span>Bendahara 1</span>
+            <div class="grid-social">
+              <a href="https://www.instagram.com/dtaexlyn_" title="dtaexlyn_"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://x.com/piawlovly_" title="piawlovly_"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://www.tiktok.com/@flyta3" title="flyta3"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="https://ui-avatars.com/api/?name=Nindita+Lutfiani&background=2090DD&color=111&font-size=0.35&length=2" alt="Bendahara 2">
+            <h3>Nindita Lutfiani</h3>
+            <span>Bendahara 2</span>
+            <div class="grid-social">
+              <a href="https://www.facebook.com/profile.php?id=61550128977186" title="Nindita Lutfiana"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/nl.meow39" title="nl.meow39"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.tiktok.com/@ninditalutfiana418" title="ninditalutfiana418"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="https://ui-avatars.com/api/?name=Fatnan+Raihan+S&background=2090DD&color=111&font-size=0.35&length=3" alt="Seksi Kegiatan">
+            <h3>Fatnan Raihan S</h3>
+            <span>Seksi Kegiatan</span>
+            <div class="grid-social">
+              <a href="https://www.instagram.com/raihan.304" title="raihan.304"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="https://ui-avatars.com/api/?name=Ulya+Zhafira&background=2090DD&color=111&font-size=0.35&length=2" alt="Seksi Kegiatan">
+            <h3>Ulya Zhafira</h3>
+            <span>Seksi Kegiatan</span>
+            <div class="grid-social">
+              <a href="https://www.instagram.com/zhxloo" title="zhxloo"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://x.com/WIN04J" title="WIN04J"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="http://discordapp.com/users/kylzee" title="kylzee"><i class="fa-brands fa-discord"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="https://ui-avatars.com/api/?name=Renaldi+Valentino&background=2090DD&color=111&font-size=0.35&length=2" alt="Seksi Pelaksana">
+            <h3>Renaldi Valentino</h3>
+            <span>Seksi Pelaksana</span>
+            <div class="grid-social">
+              <a href="https://www.tiktok.com/Stroyeers" title="Stroyeers"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="https://ui-avatars.com/api/?name=Akhmad+Mughni+Labib&background=2090DD&color=111&font-size=0.35&length=3" alt="Seksi Pemateri">
+            <h3>Akhmad Mughni Labib</h3>
+            <span>Seksi Pemateri</span>
+            <!-- grid-social -->
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="https://ui-avatars.com/api/?name=Aufa+Najakhan&background=2090DD&color=111&font-size=0.35&length=2" alt="Seksi Pemateri">
+            <h3>Aufa Najakhan</h3>
+            <span>Seksi Pemateri</span>
+            <div class="grid-social">
+              <a href="https://www.instagram.com/_jee.njkhn" title="_jee.njkhn"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="https://ui-avatars.com/api/?name=Sirajuddin+Ghanim+Fulvian&background=2090DD&color=111&font-size=0.35&length=3" alt="Seksi Dokumentasi">
+            <h3>Sirajuddin Ghanim Fulvian</h3>
+            <span>Seksi Dokumentasi</span>
+            <div class="grid-social">
+              <a href="https://www.instagram.com/ghann_1010" title="ghann-1010"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="https://ui-avatars.com/api/?name=Cela+Fabian&background=2090DD&color=111&font-size=0.35&length=2" alt="Seksi Perlengkapan">
+            <h3>Cela Fabian</h3>
+            <span>Seksi Perlengkapan</span>
+            <!-- grid-social -->
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="https://ui-avatars.com/api/?name=Geryan+Fabiansyah&background=2090DD&color=111&font-size=0.35&length=2" alt="Seksi Perlengkapan">
+            <h3>Geryan Fabiansyah</h3>
+            <span>Seksi Perlengkapan</span>
+            <div class="grid-social">
+              <a href="https://www.instagram.com/g_ery__" title="g_ery__"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.youtube.com/@malqiezz" title="malqiezz"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item-blank">
+        </div>        
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <div class="space2"></div>
     
     <!-- Quotes Section Begin -->
     <section class="quotes spad set-bg" data-setbg="./img/quotes.JPG">
@@ -223,7 +401,7 @@
             </div>
             <div class="row">
                 <div class="quotes__slider owl-carousel">
-                    <!-- Fase Pertama -->
+                    <!-- Permulaan -->
                     <div class="col-lg-4">
                         <div class="quotes__item">
                             <div class="quotes__text">
@@ -235,11 +413,277 @@
                                 </div>
                                 <div class="quotes__author__text">
                                     <h5>MULTIMEDIA</h5>
-                                    <span>SMAN 1 Baturraden</span>
+                                    <span>SMA Negeri 1 Baturraden</span>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>Urusan serba susah bisa jadi karena terbiasa telat shalat.</p>
+                                <p>"...Orang yang terbiasa telat shalat, pasti akan dihukum oleh Allah menjadi telat (dalam segala urusannya)". 
+                                    ~Hadits Riwayat Muslim.</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="./img/quotes/q-03.JPG" alt="Etrazc">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>Etrazc</h5>
+                                    <span>Project Leader</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Angkatan 2029/2030 -->
+                    <!-- Angkatan 2028/2029 -->
+                    <!-- Angkatan 2027/2028 -->
+                    <!-- Angkatan 2026/2027 -->
+                    <!-- Angkatan 2025/2026 -->
+                    <!-- Angkatan 2024/2025 -->
+                    <!-- Angkatan 2023/2024 -->
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>For All Of Us</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Moza+Dwi+Ramadhan&background=2090DD&color=111&font-size=0.35&length=3" alt="Moza" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>Moza Dwi Ramadhan</h5>
+                                    <span>Leader 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>Hina saja prosesnya sekarang tapi ingat juga tunduklah pada perintah esok hari.</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Muafa+Rizqullah&background=2090DD&color=111&font-size=0.35&length=2" alt="Muafa" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>Muafa Rizqullah</h5>
+                                    <span>Vice Leader 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>Mau beribu ribu kali gagal-pun, jika tiba waktunya untuk berhasil, pasti akan berhasil.</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Anita+Nur+Ramadani&background=2090DD&color=111&font-size=0.35&length=3" alt="Anita" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>ANITA NUR RAMADANI</h5>
+                                    <span>Sekretaris I 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>songs explain what can't explain</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Revana+Adis&background=2090DD&color=111&font-size=0.35&length=2" alt="Revana" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>REVANA ADIS</h5>
+                                    <span>Sekretaris II 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>if you're brave enough to say goodbye, life will reward you with a new hello</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Zuhra+Hanani+Ramadhina&background=2090DD&color=111&font-size=0.35&length=3" alt="Zuhra" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>ZUHRA HANANI RAMADHINA</h5>
+                                    <span>Sekretaris III 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>Tidak ada proses yang mudah,untuk tujuan yang indah</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Rahmadita+Putri+Fianti&background=2090DD&color=111&font-size=0.35&length=3" alt="Rahmadita" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>RAHMADITA PUTRI FIANTI</h5>
+                                    <span>Bendahara I 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>learn from failures</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Nindita+Lutfiani&background=2090DD&color=111&font-size=0.35&length=2" alt="Nindita" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>NINDITA LUTFIANA</h5>
+                                    <span>Bendahara II 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>Berakit rakit ke hulu berenang renang kemudian.</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Fatnan+Raihan+S&background=2090DD&color=111&font-size=0.35&length=3" alt="Fatnan" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>Fatnan Raihan S</h5>
+                                    <span>Sek-Kegiatan 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>Don't be so hard on yourself, it's your first time living</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Ulya+Zhafira&background=2090DD&color=111&font-size=0.35&length=2" alt="Ulya" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>Ulya Zhafira</h5>
+                                    <span>Sek-Kegiatan 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>Sesuatu yang berat bisa menjadi ringan untuk tidak berangkat 😂</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Renaldi+Valentino&background=2090DD&color=111&font-size=0.35&length=2" alt="Renaldi" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>RENALDI VALENTINO</h5>
+                                    <span>Sek-Pelaksana 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>Seni perang tertinggi adalah menaklukkan musuh tanpa berperang.</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Akhmad+Mughni+Labib&background=2090DD&color=111&font-size=0.35&length=3" alt="Akhmad" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>AKHMAD MUGHNI LABIB</h5>
+                                    <span>Sek-Pemateri 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>Kurangi Insecure Perbanyak Bersyukur</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Aufa+Najakhan&background=2090DD&color=111&font-size=0.35&length=2" alt="Aufa" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>AUFA NAJAKHAN</h5>
+                                    <span>Sek-Pemateri 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>3T: Terpaksa, Tersiksa, Terbentuk</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Sirajuddin+Ghanim+Fulvian&background=2090DD&color=111&font-size=0.35&length=3" alt="Sirajuddin" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>SIRAJUDDIN GHANIM FULVIAN</h5>
+                                    <span>Sek-Dokumentasi 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>Ketipu filter mah urusan kamu, siapa suruh <b>mandang fisik</b>.</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Cela+Fabian&background=2090DD&color=111&font-size=0.35&length=2" alt="Cela" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>CELA FABIAN</h5>
+                                    <span>Sek-Perlengkapan 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="quotes__item">
+                            <div class="quotes__text">
+                                <p>Tidak peduli seberapa baik sebuah karya seni, nilainya hanya di hargai oleh juri yang sama baiknya.</p>
+                            </div>
+                            <div class="quotes__author">
+                                <div class="quotes__author__pic">
+                                    <img src="https://ui-avatars.com/api/?name=Geryan+Fabiansyah&background=2090DD&color=111&font-size=0.35&length=2" alt="Geryan" id="resize-qt">
+                                </div>
+                                <div class="quotes__author__text">
+                                    <h5>GERYAN FABIANSYAH</h5>
+                                    <span>Sek-Perlengkapan 23/24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Angkatan 2022/2023 -->
                     <div class="col-lg-4">
                         <div class="quotes__item">
                             <div class="quotes__text">
@@ -256,14 +700,16 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Angkatan 2021/2022 -->
                     <div class="col-lg-4">
                         <div class="quotes__item">
                             <div class="quotes__text">
-                                <p>Malam yang singkat untuk esok yang berat.</p>
+                                <p>Move on itu bukan hanya perkara melupakan, melupakan mungkin cuma langkah awalnya tapi bagaimana 
+                                    kita bisa menerima dan memaafkan itu yang lebih utama :D</p>
                             </div>
                             <div class="quotes__author">
                                 <div class="quotes__author__pic">
-                                    <img src="./img/quotes/q-02.PNG" alt="ZefaZen">
+                                    <img src="./img/quotes/q-02.PNG" alt="ZefaZen" id="resize-qt">
                                 </div>
                                 <div class="quotes__author__text">
                                     <h5>ZefaZen</h5>
@@ -272,107 +718,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Fase Kedua -->
-                    <div class="col-lg-4">
-                        <div class="quotes__item">
-                            <div class="quotes__text">
-                                <p>Nikotin bisa memberikan inspirasi sebentar saja, tapi sebagai gantinya jiwamu akan dimakan olehnya.</p>
-                                <p><b>#GerakanBebasRokok</b></p>
-                            </div>
-                            <div class="quotes__author">
-                                <div class="quotes__author__pic">
-                                    <img src="./img/quotes/q-04.JPG" alt="Anonim">
-                                </div>
-                                <div class="quotes__author__text">
-                                    <h5>Anonim</h5>
-                                    <span>Anggota 23/24</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="quotes__item">
-                            <div class="quotes__text">
-                                <p>Pertemuan pertama hanya kebetulan. Pertemuan kedua tidak bisa dihindari. Pertemuan ketiga merupakan takdir.</p>
-                            </div>
-                            <div class="quotes__author">
-                                <div class="quotes__author__pic">
-                                    <img src="./img/quotes/q-06.JPG" alt="Anonim">
-                                </div>
-                                <div class="quotes__author__text">
-                                    <h5>Anonim</h5>
-                                    <span>Anggota 23/24</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="quotes__item">
-                            <div class="quotes__text">
-                                <p>Lagu lama, kaset baru.</p>
-                            </div>
-                            <div class="quotes__author">
-                                <div class="quotes__author__pic">
-                                    <img src="./img/quotes/q-03.JPG" alt="Etrazc">
-                                </div>
-                                <div class="quotes__author__text">
-                                    <h5>Etrazc</h5>
-                                    <span>Webmaster</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Fase Ketiga -->
-                    <div class="col-lg-4">
-                        <div class="quotes__item">
-                            <div class="quotes__text">
-                                <p>Gelap mata, hati jadi musuh.</p>
-                            </div>
-                            <div class="quotes__author">
-                                <div class="quotes__author__pic">
-                                    <img src="./img/quotes/q-07.JPG" alt="Anonim">
-                                </div>
-                                <div class="quotes__author__text">
-                                    <h5>Anonim</h5>
-                                    <span>Anggota 23/24</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="quotes__item">
-                            <div class="quotes__text">
-                                <p>Jalan pikiran manusia tidak selalu lurus.</p>
-                            </div>
-                            <div class="quotes__author">
-                                <div class="quotes__author__pic">
-                                    <img src="./img/quotes/q-06.JPG" alt="Anonim">
-                                </div>
-                                <div class="quotes__author__text">
-                                    <h5>Anonim</h5>
-                                    <span>Anggota 23/24</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="quotes__item">
-                            <div class="quotes__text">
-                                <p>Urusan serba susah bisa jadi karena terbiasa telat shalat.</p>
-                                <p>"...Orang yang terbiasa telat shalat, pasti akan dihukum oleh Allah menjadi telat (dalam segala urusannya)". ~Hadits Riwayat Muslim.</p>
-                            </div>
-                            <div class="quotes__author">
-                                <div class="quotes__author__pic">
-                                    <img src="./img/quotes/q-05.JPG" alt="Stllr-Rain">
-                                </div>
-                                <div class="quotes__author__text">
-                                    <h5>Stllr-Rain</h5>
-                                    <span>Anggota 23/24</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Fase Keempat (diisi oleh pengurus tahun ini. saya hanya bisa menambahkan 7 kutipan) -->
+                    <!-- Penutupan -->
                 </div>
             </div>
         </div>
@@ -391,9 +737,9 @@
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="footer__top__social">
-                            <a href="https://github.com/multimediaa"><i class="fa fa-github"></i></a>
-                            <a href="https://www.instagram.com/multimedia_smabara/"><i class="fa fa-instagram"></i></a>
-                            <a href="https://www.youtube.com/@multimediasmabara7785"><i class="fa fa-youtube-play"></i></a>
+                            <a href="https://github.com/multimediaa"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/multimedia_smabara/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@multimediasmabara7785"><i class="fa-brands fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -406,15 +752,16 @@
                             <p>Salah satu ekstrakurikuler di SMA Negeri 1 Baturraden yang berfokus dalam bidang Desain Grafis,
                                 Editing Foto dan Video, Pelatihan Microsoft Office, dan masih banyak lagi.
                             </p>
-                            <a href="./about.html" class="read__more">Selengkapnya <span class="arrow_right"></span></a>
+                            <a href="./about.html" class="read__more">Lebih lanjut <span class="arrow_right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3">
                         <div class="footer__option__item">
                             <h5>Siapakah kami?</h5>
                             <ul>
+                                <li><a href="./about.html">Profil Multimedia</a></li>
+                                <li><a href="./about.html">Visi dan Misi</a></li>
                                 <li><a href="./about.html">Latar Belakang</a></li>
-                                <li><a href="./about.html">Maksud dan Tujuan</a></li>
                                 <li><a href="./about.html">Struktur Kepengurusan</a></li>
                                 <li><a href="./contact.html">Hubungi Kami</a></li>
                                 <li><a href="./contact.html">Lokasi</a></li>      
@@ -439,7 +786,7 @@
                             <form action="https://formspree.io/f/mleqknwy" method="POST">
                                 <input type="email" name="email" placeholder="Email" required>
                                 <textarea name="message" hidden></textarea>
-                                <button type="submit"><i class="fa fa-send"></i></button>
+                                <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
                             </form>
                         </div>
                     </div>
