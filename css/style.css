@@ -1,11 +1,3 @@
-/******************************************************************
-  Template Name: Dreams
-  Description: Dreams wedding template
-  Author: Colorib
-  Author URI: https://colorlib.com/
-  Version: 1.0
-  Created: Colorib
-******************************************************************/
 /* [Table of contents] -------------------------------------------
 
 1.  Template default CSS
@@ -23,10 +15,15 @@
 9.  Contact
 10.  Footer Style ----------------------------------------------*/
 
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
-* {cursor: none;}
+/* [Import content] -----------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+/* [Template default CSS] -----------------------------------------*/
+
+/** Untuk Cursor gaya 2
+* {cursor: none;} **/
 
 html,
 body {
@@ -36,11 +33,8 @@ body {
   scroll-behavior: smooth;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
+h1,h2,
+h3,h4,h5,
 h6 {
   margin: 0;
   color: #111111;
@@ -49,25 +43,15 @@ h6 {
 }
 
 h1 {
-  font-size: 70px;
-}
-
+  font-size: 70px;}
 h2 {
-  font-size: 36px;
-}
-
+  font-size: 36px;}
 h3 {
-  font-size: 30px;
-}
-
+  font-size: 30px;}
 h4 {
-  font-size: 24px;
-}
-
+  font-size: 24px;}
 h5 {
-  font-size: 18px;
-}
-
+  font-size: 18px;}
 h6 {
   font-size: 16px;
 }
@@ -80,10 +64,8 @@ p {
   line-height: 26px;
   margin: 0 0 15px 0;
 }
-
 img {
-  max-width: 100%;
-}
+  max-width: 100%;}
 
 input:focus,
 select:focus,
@@ -2407,13 +2389,27 @@ pre::-webkit-scrollbar-track {
   background-color: #1e1e1e;
 }
 
-/* --Cursor v1--
-body {cursor: url('../img/cursor/c-pointer.png'), auto;}
-a, i, a, i, a li, nav, button {cursor: url('../img/cursor/c-link.png'), auto;}
-input {cursor: url('../img/cursor/text.png'), auto;}
-*/
+/* --Cursor v1-- */
+body {
+  cursor: url('../img/cursor/blue-neon/pointer.PNG'), auto;}
+a, i, li, nav, button, .btn {
+  cursor: url('../img/cursor/blue-neon/link.PNG'), auto;}
+input, .c-text {
+  cursor: url('../img/cursor/blue-neon/text.PNG'), auto;}
 
-/* --Cursor v2-- */
+/* Additional cursors */
+.c-disable {
+  cursor: url('../img/cursor/blue-neon/disable.gif'), auto;}
+.c-help {
+  cursor: url('../img/cursor/blue-neon/help.PNG'), auto;}
+.c-loading {
+  cursor: url('../img/cursor/blue-neon/loading.PNG'), auto;}
+.c-locate {
+  cursor: url('../img/cursor/blue-neon/locate.PNG'), auto;}
+.c-person {
+  cursor: url('../img/cursor/blue-neon/person.PNG'), auto;}
+
+/* --Cursor v2--
 .cur1 {
   width: 50px;
   height: 50px;
@@ -2440,7 +2436,7 @@ input {cursor: url('../img/cursor/text.png'), auto;}
   transition: width 0.3s, height 0.3s, opacity 0.3s;
   z-index: 99999;
 }
-.cursorinnerhover {width: 50px;height: 50px;opacity: 70%;}
+.cursorinnerhover {width: 50px;height: 50px;opacity: 70%;} */
 
 
 /* Scrollbar */
