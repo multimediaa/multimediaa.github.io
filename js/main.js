@@ -189,7 +189,7 @@
     });
 
     /*------------------
-        Video Popup
+        Magnific Popup
     --------------------*/
     $('.video-popup').magnificPopup({
         type: 'iframe'
@@ -212,66 +212,203 @@
 
 })(jQuery);
 
-// Sebelumnya dan Selanjutnya
-function initNavigation(posts, currentIndex) {
-    const prevPostIndex = currentIndex - 1;
-    const nextPostIndex = currentIndex + 1;
+document.addEventListener('DOMContentLoaded', function() {
+    const galleryContainer = document.querySelector('.portfolio__gallery');
+    const loadMoreButton = document.getElementById('loadMore');
+    
+    let initialItemsToShow = 9; // Jumlah item yang ditampilkan sebelum tombol "Load More" muncul
+    let itemsToLoad = 12; // Jumlah item yang ditambahkan setiap kali tombol "Load More" diklik
+    let currentFilter = '*';
+    let itemsToShow = initialItemsToShow;
 
-    if (prevPostIndex >= 0) {
-        const prevPost = posts[prevPostIndex];
-        document.getElementById('prev-post').href = `/blog/post/website/${prevPost.url}`;
-        document.getElementById('prev-img').src = prevPost.img;
-        document.getElementById('prev-title').innerText = prevPost.title;
-        document.getElementById('prev-date').innerText = prevPost.date;
-    } else {
-        document.getElementById('prev-post').style.display = 'none';
-    }
-
-    if (nextPostIndex < posts.length) {
-        const nextPost = posts[nextPostIndex];
-        document.getElementById('next-post').href = `/blog/post/website/${nextPost.url}`;
-        document.getElementById('next-img').src = nextPost.img;
-        document.getElementById('next-title').innerText = nextPost.title;
-        document.getElementById('next-date').innerText = nextPost.date;
-    } else {
-        document.getElementById('next-post').style.display = 'none';
-    }
-}
-
-// Fetch posts data from JSON file
-fetch('/js/blog.json')
-    .then(response => response.json())
-    .then(posts => {
-        // Assume currentIndex is determined by the current URL
-        const currentPostUrl = window.location.pathname.split("/").pop();
-        const currentIndex = posts.findIndex(post => post.url === currentPostUrl);
-
-        if (currentIndex !== -1) {
-            initNavigation(posts, currentIndex);
+    // Fungsi untuk menampilkan/menyembunyikan item berdasarkan filter
+    function filterItems(filter) {
+        const items = document.querySelectorAll('.portfolio__gallery .mix');
+        let visibleItems = 0;
+        let totalMatchingItems = 0; // Hitung semua item yang cocok dengan filter
+        currentFilter = filter;
+    
+        items.forEach((item, index) => {
+            if (filter === '*' || item.classList.contains(filter.substring(1))) {
+                totalMatchingItems++; // Tambahkan ke total item yang cocok
+                if (visibleItems < itemsToShow) {
+                    item.style.display = 'block';
+                    visibleItems++;
+                } else {
+                    item.style.display = 'none';
+                }
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    
+        // Tampilkan tombol "Load More" jika ada lebih dari jumlah item yang ditampilkan dan total item lebih dari 3
+        if (totalMatchingItems > visibleItems && totalMatchingItems > 3) {
+            loadMoreButton.style.display = 'block';
         } else {
-            console.error("Current post not found in the list of posts.");
+            loadMoreButton.style.display = 'none';
         }
-    })
-    .catch(error => {
-        console.error("Error fetching posts data:", error);
+    }    
+
+    // Mengatur filter pada klik
+    document.querySelectorAll('.portfolio__filter li').forEach(li => {
+        li.addEventListener('click', function() {
+            // Hapus kelas 'active' dari semua filter
+            document.querySelectorAll('.portfolio__filter li').forEach(li => li.classList.remove('active'));
+            // Tambahkan kelas 'active' pada filter yang dipilih
+            this.classList.add('active');
+            // Ambil nilai filter yang dipilih
+            const filterValue = this.getAttribute('data-filter');
+            // Setel ulang item yang ditampilkan saat filter berubah
+            itemsToShow = initialItemsToShow;
+            // Terapkan filter
+            filterItems(filterValue);
+        });
     });
 
+    // Load gallery data
+    async function loadGallery() {
+        try {
+            const response = await fetch('/js/gallery.json');
+            if (!response.ok) throw new Error('Failed to load gallery data');
+            
+            let data = await response.json();
+            data.sort((a, b) => new Date(b.tanggal.split('-').reverse().join('-')) - new Date(a.tanggal.split('-').reverse().join('-')));
 
-// Postingan Serupa
-// Function to load similar posts based on tags
-function loadSimilarPosts(currentPostTitle, currentPostTags) {
-    fetch('/js/blog.json')
-        .then(response => response.json())
-        .then(posts => {
-            // Filter posts by tag and exclude the current post
-            const similarPosts = posts.filter(post => {
-                // Ensure no duplicate titles and matching tags
-                return post.title !== currentPostTitle && post.tag === currentPostTags;
-            }).slice(0, 3); // Limit to maximum 3 similar posts
+            galleryContainer.innerHTML = ''; // Hapus konten yang ada
 
-            // Populate similar posts in HTML
+            let itemCount = 0; // Hitung jumlah item yang ditampilkan
+
+            data.forEach(item => {
+                const galleryItem = document.createElement('div');
+                galleryItem.className = `col-lg-4 col-md-6 col-sm-6 mix ${item.label}`;
+
+                galleryItem.innerHTML = `
+                    <div class="portfolio__item">
+                        <div id="cover" class="${item.tipe} set-bg" data-setbg="${item.cover}">
+                            <a id="preview" title="${item.judul_alternatif}" href="${item.preview}" class="${item.atribut}"><i class="${item.icon}"></i></a>
+                        </div>
+                        <div class="portfolio__item__text">
+                            <h4 id="judul-karya">${item.judul_karya}</h4>
+                            <ul>
+                                <li id="kepemilikan">${item.kepemilikan}</li>
+                                <li id="tanggal">${item.tanggal}</li>
+                            </ul>
+                        </div>
+                    </div>
+                `;
+                
+                galleryContainer.appendChild(galleryItem);
+            });
+
+            // Inisialisasi background image
+            document.querySelectorAll('.set-bg').forEach(element => {
+                const bg = element.getAttribute('data-setbg');
+                element.style.backgroundImage = `url(${bg})`;
+            });
+
+            // Inisialisasi Magnific Popup
+            $('.video-popup').magnificPopup({
+                type: 'iframe'
+            });
+
+            $('.img-preview').magnificPopup({
+                type: 'image',
+                gallery: {
+                    enabled: false,
+                }
+            });
+
+            // Terapkan filter setelah galeri dimuat
+            filterItems(currentFilter);
+
+        } catch (error) {
+            console.error('Error loading gallery data:', error);
+        }
+    }
+
+    // Handle klik pada tombol "Load More"
+    loadMoreButton.addEventListener('click', function(e) {
+        e.preventDefault();
+        itemsToShow += itemsToLoad; // Tambahkan jumlah item yang ingin dimuat
+        filterItems(currentFilter);
+    
+        // Scroll ke item terakhir yang muncul
+        const lastVisibleItem = document.querySelector('.portfolio__gallery .mix[style*="display: block"]:last-child');
+        if (lastVisibleItem) {
+            lastVisibleItem.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+
+    // Execute Gallery functions
+    loadGallery();
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Load blog data
+    async function loadBlog() {
+        try {
+            const response = await fetch('/js/blog.json');
+            if (!response.ok) throw new Error('Failed to load blog data');
+            
+            const posts = await response.json();
+            const currentPostUrl = window.location.pathname.split("/").pop();
+            const currentIndex = posts.findIndex(post => post.url === currentPostUrl);
+
+            if (currentIndex !== -1) {
+                initNavigation(posts, currentIndex);
+            } else {
+                console.error("Current post not found in the list of posts.");
+            }
+
+            const currentPostTitleElement = document.querySelector('.blog__hero__text h2');
+            const currentPostTitle = currentPostTitleElement ? currentPostTitleElement.innerText.trim() : "";
+            const currentPostTagsElement = document.querySelector('.blog__details__tags a');
+            const currentPostTags = currentPostTagsElement ? currentPostTagsElement.innerText.trim() : "";
+
+            updateRelatedPostsHeading();
+            loadSimilarPosts(currentPostTitle, currentPostTags);
+        } catch (error) {
+            console.error('Error loading blog data:', error);
+        }
+    }
+
+    // Blog navigation function
+    function initNavigation(posts, currentIndex) {
+        const prevPostIndex = currentIndex - 1;
+        const nextPostIndex = currentIndex + 1;
+
+        if (prevPostIndex >= 0) {
+            const prevPost = posts[prevPostIndex];
+            document.getElementById('prev-post').href = `/blog/post/website/${prevPost.url}`;
+            document.getElementById('prev-img').src = prevPost.img;
+            document.getElementById('prev-title').innerText = prevPost.title;
+            document.getElementById('prev-date').innerText = prevPost.date;
+        } else {
+            document.getElementById('prev-post').style.display = 'none';
+        }
+
+        if (nextPostIndex < posts.length) {
+            const nextPost = posts[nextPostIndex];
+            document.getElementById('next-post').href = `/blog/post/website/${nextPost.url}`;
+            document.getElementById('next-img').src = nextPost.img;
+            document.getElementById('next-title').innerText = nextPost.title;
+            document.getElementById('next-date').innerText = nextPost.date;
+        } else {
+            document.getElementById('next-post').style.display = 'none';
+        }
+    }
+
+    // Similar posts function
+    async function loadSimilarPosts(currentPostTitle, currentPostTags) {
+        try {
+            const response = await fetch('/js/blog.json');
+            if (!response.ok) throw new Error('Failed to load similar posts');
+            
+            const posts = await response.json();
+            const similarPosts = posts.filter(post => post.title !== currentPostTitle && post.tag === currentPostTags).slice(0, 3);
             const container = document.getElementById('similar-post');
-            container.innerHTML = ''; // Clear previous content
+            container.innerHTML = '';
 
             similarPosts.forEach(post => {
                 const postHTML = `
@@ -285,32 +422,23 @@ function loadSimilarPosts(currentPostTitle, currentPostTags) {
                 `;
                 container.innerHTML += postHTML;
             });
-        })
-        .catch(error => {
-            console.error("Error fetching similar posts:", error);
-        });
-}
-
-// Function to update the heading based on current post tag
-function updateRelatedPostsHeading() {
-    const currentPostTagElement = document.querySelector('.blog__details__tags a'); // Get tag element
-    if (currentPostTagElement) {
-        const currentTag = currentPostTagElement.innerText.trim(); // Get tag text
-        const relatedPostsHeading = document.querySelector('.blog__details__recent h4'); // Get related posts heading element
-        if (relatedPostsHeading) {
-            relatedPostsHeading.textContent = `Postingan mengenai ${currentTag}`; // Update heading text
+        } catch (error) {
+            console.error('Error loading similar posts:', error);
         }
     }
-}
 
-// Example of getting current post details
-const currentPostTitleElement = document.querySelector('.blog__hero__text h2'); // Get current post title element
-const currentPostTitle = currentPostTitleElement ? currentPostTitleElement.innerText.trim() : ""; // Get current post title text
-const currentPostTagsElement = document.querySelector('.blog__details__tags a'); // Get tag element
-const currentPostTags = currentPostTagsElement ? currentPostTagsElement.innerText.trim() : ""; // Get tag text, if available
+    // Update heading for related posts
+    function updateRelatedPostsHeading() {
+        const currentPostTagElement = document.querySelector('.blog__details__tags a');
+        if (currentPostTagElement) {
+            const currentTag = currentPostTagElement.innerText.trim();
+            const relatedPostsHeading = document.querySelector('.blog__details__recent h4');
+            if (relatedPostsHeading) {
+                relatedPostsHeading.textContent = `Postingan mengenai ${currentTag}`;
+            }
+        }
+    }
 
-// Update related posts heading based on current post tag
-updateRelatedPostsHeading();
-
-// Load similar posts based on current post's title and tags
-loadSimilarPosts(currentPostTitle, currentPostTags);
+    // Execute Blog functions
+    loadBlog();
+});

@@ -1,0 +1,62 @@
+[
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "",
+      "cover": "",
+      "judul_karya": "",
+      "judul_alternatif": "🖼 ..",
+      "kepemilikan": "Nama",
+      "tanggal": "00-00-0000"
+    },
+    {
+      "label": "editing-foto",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "",
+      "cover": "",
+      "judul_karya": "",
+      "judul_alternatif": "📷 ..",
+      "kepemilikan": "Nama",
+      "tanggal": "00-00-0000"
+    },
+    {
+      "label": "editing-video",
+      "tipe": "portfolio__item__video","atribut": "play-btn video-popup","icon": "fa fa-play",
+      "preview": "https://www.youtube.com/watch?v=LXb3EKWsInQ",
+      "cover": "",
+      "judul_karya": "",
+      "judul_alternatif": "▶️ ..",
+      "kepemilikan": "Nama",
+      "tanggal": "00-00-0000"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "",
+      "cover": "",
+      "judul_karya": "",
+      "judul_alternatif": "",
+      "kepemilikan": "Nama",
+      "tanggal": "00-00-0000"
+    },
+    {
+      "label": "official",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "",
+      "cover": "",
+      "judul_karya": "",
+      "judul_alternatif": "",
+      "kepemilikan": "Nama",
+      "tanggal": "00-00-0000"
+    },
+    {
+      "label": "official",
+      "tipe": "portfolio__item__video","atribut": "play-btn video-popup","icon": "fa fa-play",
+      "preview": "https://www.youtube.com/watch?v=LXb3EKWsInQ",
+      "cover": "",
+      "judul_karya": "",
+      "judul_alternatif": "▶️ ..",
+      "kepemilikan": "Nama",
+      "tanggal": "00-00-0000"
+    }
+]
