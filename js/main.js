@@ -212,6 +212,23 @@
 
 })(jQuery);
 
+$(document).ready(function() {
+    const $items = $(".accordion button");
+  
+    function toggleAccordion() {
+      const $this = $(this);
+      const itemToggle = $this.attr('aria-expanded');
+  
+      $items.attr('aria-expanded', 'false');
+  
+      if (itemToggle === 'false') {
+        $this.attr('aria-expanded', 'true');
+      }
+    }
+  
+    $items.on('click', toggleAccordion);
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     const galleryContainer = document.querySelector('.portfolio__gallery');
     const loadMoreButton = document.getElementById('loadMore');
