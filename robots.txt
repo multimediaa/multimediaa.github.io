@@ -1,0 +1,26 @@
+User-agent: *
+Disallow:
+
+# Block specific directories
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Allow access to important resources
+Allow: /css/style.css
+Allow: /css/loading.min.css
+Allow: /css/error.css
+Allow: /js/main.js
+Allow: /js/blog.json
+Allow: /js/gallery.json
+Allow: /img/♥️.PNG
+Allow: /img/bc.PNG
+Allow: /img/cam.PNG
+Allow: /img/drone.PNG
+Allow: /img/love.JPG
+Allow: /img/quotes.JPG
+Allow: /img/readme.JPG
+Allow: /img/team.JPG
+
+# Sitemap location
+Sitemap: https://multimediaa.github.io/page/sitemap.xml
