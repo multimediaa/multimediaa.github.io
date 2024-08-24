@@ -2908,3 +2908,10 @@ body::-webkit-scrollbar-thumb {
 .sitemap__list b {
   font-weight: 300;
 }
+.sitemap__list a {
+  text-decoration: underline;
+  color: #adadad;
+}
+.sitemap__list a:hover {
+  text-decoration: none;
+}
