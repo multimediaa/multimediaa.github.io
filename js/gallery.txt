@@ -1,0 +1,1122 @@
+# Folder Induk
+./img/gallery/
+
+# Progress ☐/☑
+☑ Desain Grafis
+☑ Editing Foto
+☐ Editing Video
+☑ Partners
+☑ Official
+
+# Desain-Grafis
+## Banner ==========================================================================
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Banner/2022/20221128-Rayhan-Adinata.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Banner/2022/cover/20221128-Rayhan.JPG",
+      "judul_karya": "Banner Hari Guru",
+      "judul_alternatif": "Devina / Hari Guru",
+      "kepemilikan": "Devina Faustine",
+      "tanggal": "28-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Banner/2022/20221129-Anandaputri-Azharramadhani.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Banner/2022/cover/20221129-Anandaputri.JPG",
+      "judul_karya": "Banner Hari Ibu",
+      "judul_alternatif": "Anandaputri / Hari Ibu",
+      "kepemilikan": "Anandaputri Azharramadhani",
+      "tanggal": "29-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Banner/2022/20221129-Levi Erliana.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Banner/2022/cover/20221129-Levi.PNG",
+      "judul_karya": "Banner Pameran P5",
+      "judul_alternatif": "Levi / Pameran Hasil Proyek P5",
+      "kepemilikan": "Levi Erliana",
+      "tanggal": "29-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Banner/2022/20221201-Alfian.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Banner/2022/cover/20221201-Alfian.JPG",
+      "judul_karya": "Banner SFC 2022",
+      "judul_alternatif": "Alfian / Smabara Futsal Cup 2022",
+      "kepemilikan": "Muhammad Alfian",
+      "tanggal": "01-12-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Banner/2022/20221201-Fathan-Syafiq.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Banner/2022/cover/20221201-Fathan.PNG",
+      "judul_karya": "Banner GKS-P5",
+      "judul_alternatif": "Fathan / Gelar Kreasi Seni Pameran P5",
+      "kepemilikan": "Fathan-Syafiq",
+      "tanggal": "01-12-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Banner/2022/Banner-Ahmad-Yusuf-Mustofa.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Banner/2022/cover/2022-Ahmad.JPG",
+      "judul_karya": "Banner Multimedia",
+      "judul_alternatif": "Ahmad / Banner Multimedia",
+      "kepemilikan": "Ahmad-Yusuf-Mustofa",
+      "tanggal": "01-12-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Banner/2022/Banner-Mohamad-Risqiy-Al-Amin.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Banner/2022/cover/2022-Mohamad-Rizqiy.PNG",
+      "judul_karya": "Banner LDKS 2022",
+      "judul_alternatif": "Risqiy / Latihan Dasar Kepemimpinan Siswa 2022",
+      "kepemilikan": "Mohamad Risqiy Al-Amin",
+      "tanggal": "01-12-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Banner/2022/Independence-Leyla-Ameera.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Banner/2022/cover/2022-Leyla.PNG",
+      "judul_karya": "Banner Kemerdekaan Indonesia",
+      "judul_alternatif": "Leyla / Kemerdekaan Indonesia",
+      "kepemilikan": "Leyla Ameera",
+      "tanggal": "01-12-2022"
+    },
+
+## Brosur ==========================================================================
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Brosur/2023/01-Ahmad-Yusuf-Mustofa.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Brosur/2023/cover/01-Ahmad.JPG",
+      "judul_karya": "Brosur-1 SMABARA",
+      "judul_alternatif": "🖼 Ahmad / Brosur SMABARA-1",
+      "kepemilikan": "Ahmad Yusuf Mustofa",
+      "tanggal": "27-02-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Brosur/2023/02-Ahmad-Yusuf-Mustofa.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Brosur/2023/cover/02-Ahmad.JPG",
+      "judul_karya": "Brosur-2 SMABARA",
+      "judul_alternatif": "🖼 Ahmad / Brosur SMABARA-2",
+      "kepemilikan": "Ahmad Yusuf Mustofa",
+      "tanggal": "27-02-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Brosur/2023/20230129-Zefa-Zenul-Haq.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Brosur/2023/cover/20230129-Zefa.JPG",
+      "judul_karya": "Brosur Orbits",
+      "judul_alternatif": "🖼 Zefa / Brosur Orbits - AU2 Mobile ID",
+      "kepemilikan": "Zefa Zenul Haq",
+      "tanggal": "13-02-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Brosur/2023/20230130-Labib-Karoma.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Brosur/2023/cover/20230130-Labib.JPG",
+      "judul_karya": "Brosur Tanaman",
+      "judul_alternatif": "🖼 Labib / Brosur Tanaman",
+      "kepemilikan": "Labib Karoma",
+      "tanggal": "30-01-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Brosur/2023/20230131-Devina-Faustine.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Brosur/2023/cover/20230131-Devina.JPG",
+      "judul_karya": "Brosur D'Paint",
+      "judul_alternatif": "🖼 Devina / Brosur D'Paint - Kursus Melukis",
+      "kepemilikan": "Devina Faustine",
+      "tanggal": "31-01-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Brosur/2023/20230131-Fathan-Syafiq-Leyla-Ameera.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Brosur/2023/cover/20230131-Fathan-Leyla.JPG",
+      "judul_karya": "Brosur ORBITS 1317",
+      "judul_alternatif": "🖼 Fathan & Leyla / Brosur ORBITS",
+      "kepemilikan": "Fathan Syafiq & Leyla Ameera F.",
+      "tanggal": "31-01-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Brosur/2023/20230131-Mohamad-Risqiy-Al-Amin.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Brosur/2023/cover/20230131-Risqiy.JPG",
+      "judul_karya": "Brosur Pariwisata",
+      "judul_alternatif": "🖼 Risqiy / Brosur Pesona Indonesia",
+      "kepemilikan": "Mohamad Risqiy Al-Amin",
+      "tanggal": "31-01-2023"
+    },
+
+## Kartu-Nama ==========================================================================
+
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/20221025-Adi-Cahyo.jpg",
+      "cover": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/cover/20221025-Adi.JPG",
+      "judul_karya": "Kartu Pengenal Adi",
+      "judul_alternatif": "🖼 Adi / Kartu Pengenal",
+      "kepemilikan": "Adi Cahyo Winoto",
+      "tanggal": "29-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/20221128-Muhammad-Arkhan-Pratama.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/cover/20221128-Muhammad.JPG",
+      "judul_karya": "Kartu Identitas Muhammad",
+      "judul_alternatif": "🖼 Muhammad / Kartu Identitas Multimedia",
+      "kepemilikan": "Muhammad Arkhan Pratama",
+      "tanggal": "28-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/20221129-Anita-Nuramadani.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/cover/20221129-Anita.JPG",
+      "judul_karya": "Kartu Identitas Anita",
+      "judul_alternatif": "🖼 Anita / Kartu Identitas Multimedia",
+      "kepemilikan": "Anita Nur Ramadani",
+      "tanggal": "29-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/20221129-Levi-Erliana.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/cover/20221129-Levi.JPG",
+      "judul_karya": "Kartu Identitas Levi",
+      "judul_alternatif": "🖼 Levi / Kartu Identitas Multimedia",
+      "kepemilikan": "Levi Erliana",
+      "tanggal": "29-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/20221129-Rena-Indriani.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/cover/20221129-Rena.JPG",
+      "judul_karya": "Kartu Identitas Rena",
+      "judul_alternatif": "🖼 Jadi selama ini dia cosplayer? Dunia sungguh sempit.",
+      "kepemilikan": "Rena Indriani",
+      "tanggal": "29-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/20221129-Vanya-Anggraeni.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/cover/20221129-Vanya.JPG",
+      "judul_karya": "Kartu Pengenal Vanya",
+      "judul_alternatif": "🖼 Vanya / Kartu Pengenal",
+      "kepemilikan": "Vanya Anggraeni",
+      "tanggal": "29-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/20221202-Calya-Talitha.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/cover/20221202-Calya.PNG",
+      "judul_karya": "Kartu Pengenal Calya",
+      "judul_alternatif": "🖼 Calya / Kartu Pengenal",
+      "kepemilikan": "Calya Talitha Yueda",
+      "tanggal": "02-12-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/Ahmad-Yusuf-Mustofa.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Kartu-Nama/2022/cover/Ahmad.PNG",
+      "judul_karya": "Kartu Pengenal Ahmad",
+      "judul_alternatif": "🖼 Ahmad / Kartu Pengenal",
+      "kepemilikan": "Ahmad Yusuf Mustofa",
+      "tanggal": "28-11-2022"
+    },
+
+## Logo ==========================================================================
+
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Logo/2022/20220316-Alifia-Nur-Istiqomah.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Logo/2022/cover/20220316-Alifia.JPG",
+      "judul_karya": "Logo A.N.I",
+      "judul_alternatif": "🖼 Logonya mirip Marcus&Martinus (M&M) 🤔",
+      "kepemilikan": "Alifia Nur Istiqomah",
+      "tanggal": "16-03-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Logo/2022/20220316-Alisa-Anjani.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Logo/2022/cover/20220316-Alisa.JPG",
+      "judul_karya": "Logo Fnh",
+      "judul_alternatif": "🖼 Fadlina / Fnh",
+      "kepemilikan": "Fadlina Nurul Hidayah",
+      "tanggal": "16-03-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Logo/2022/20220316-Farasya-Putri-Purnomo.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Logo/2022/cover/20220316-Farasya.JPG",
+      "judul_karya": "Logo Yuraaaz",
+      "judul_alternatif": "🖼 Farasya / Yuraaaz - Top Up Store",
+      "kepemilikan": "Farasya Putri Purnomo",
+      "tanggal": "16-03-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Logo/2022/20220316-Melsa-Indah-Saputri.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Logo/2022/cover/20220316-Melsa.JPG",
+      "judul_karya": "Logo MIS",
+      "judul_alternatif": "🖼 Melsa / MIS",
+      "kepemilikan": "Melsa Indah Saputri",
+      "tanggal": "16-03-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Logo/2022/20220414-Ira-Rahmawati.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Logo/2022/cover/20220414-Ira.JPG",
+      "judul_karya": "Logo @flywithraa",
+      "judul_alternatif": "🖼 aaww.. menggemaskan 🤗",
+      "kepemilikan": "Ira Rahmawati",
+      "tanggal": "14-04-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Logo/2022/20220610-Lutfiana-Nurrokhmatika.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Logo/2022/cover/20220610-Lutfiana.PNG",
+      "judul_karya": "Logo ln",
+      "judul_alternatif": "🖼 Lufiana / ln photography",
+      "kepemilikan": "Lutfiana Nurrokhmatika",
+      "tanggal": "10-06-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Logo/2022/220317-Adi-Cahyo.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Logo/2022/cover/220317-Adi.JPG",
+      "judul_karya": "Logo Adi",
+      "judul_alternatif": "🖼 Adi - The Best Sweets",
+      "kepemilikan": "Adi Cahyo Winoto",
+      "tanggal": "17-03-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Logo/2022/Huruf-A.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Logo/2022/cover/Huruf-A.JPG",
+      "judul_karya": "Logo A",
+      "judul_alternatif": "🖼 Logo Alfabet A",
+      "kepemilikan": "(tidak ingin disebut)",
+      "tanggal": "16-03-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Logo/2022/Luxury-Ananda.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Logo/2022/cover/Luxury-Ananda.JPG",
+      "judul_karya": "Logo Luxury",
+      "judul_alternatif": "🖼 Ananda / Luxury",
+      "kepemilikan": "Ananda Putri Azhar Ramadhani",
+      "tanggal": "10-06-2022"
+    },
+
+## Logo Maskot ==========================================================================
+
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Logo/2023/20230207-Fathan-Syafiq-Leyla-Ameera.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Logo/2023/cover/20230207-Fathan-Leyla.JPG",
+      "judul_karya": "Logo Maskot Cupang",
+      "judul_alternatif": "🖼 Leyla / Maskot Cupang",
+      "kepemilikan": "Leyla Ameera Fahmeeda",
+      "tanggal": "07-02-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Logo/2023/20230207-Muhammad-Raziq-Aqilla.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Logo/2023/cover/20230207-Muhammad.JPG",
+      "judul_karya": "Logo Maskot Cupang",
+      "judul_alternatif": "🖼 Muhammad / Maskot Cupang",
+      "kepemilikan": "Muhammad Raziq Aqilla",
+      "tanggal": "07-02-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Logo/2023/Ahmad-Yusuf-Mustofa.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Logo/2023/cover/Ahmad.JPG",
+      "judul_karya": "Logo Maskot Smabara",
+      "judul_alternatif": "🖼 Ahmad / Maskot Smabara",
+      "kepemilikan": "Ahmad Yusuf Mustofa",
+      "tanggal": "27-02-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Logo/2023/Bawor-Zefa-Zenul-Haq.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Logo/2023/cover/Bawor-Zefa.JPG",
+      "judul_karya": "Logo Maskot Bawor",
+      "judul_alternatif": "🖼 Zefa / Redesign Logo Maskot Bawor",
+      "kepemilikan": "Zefa Zenul Haq",
+      "tanggal": "13-02-2023"
+    },
+
+## Poster Motivasi =================================================================
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2022/20220420-Fahira-Inasa.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2022/cover/20220420-Fahira.PNG",
+      "judul_karya": "Poster Motivasi",
+      "judul_alternatif": "🖼 Fahira / Poster Motivasi",
+      "kepemilikan": "Fahira Inasa Adila Handoyo",
+      "tanggal": "20-04-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2022/20220509-Zefa-Zenul-Haq.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2022/cover/20220509-Zefa.PNG",
+      "judul_karya": "Poster Motivasi",
+      "judul_alternatif": "🖼 Zefa / Poster Motivasi",
+      "kepemilikan": "Zefa Zenul Haq",
+      "tanggal": "09-05-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2022/20220610-Isna-Nova-Rahmadani.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2022/cover/20220610-Isna.PNG",
+      "judul_karya": "Poster Motivasi",
+      "judul_alternatif": "🖼 Isna / Poster Motivasi",
+      "kepemilikan": "Isna Nova Rahmadani",
+      "tanggal": "10-06-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2022/20220610-Lutfiana-Nurrokhmatika.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2022/cover/20220610-Lutfiana.PNG",
+      "judul_karya": "Poster Motivasi",
+      "judul_alternatif": "🖼 Lutfiana / Poster Motivasi",
+      "kepemilikan": "Lutfiana Nurrokhmatika",
+      "tanggal": "10-06-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2022/20220612-Muhamad-Alfian.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2022/cover/20220612-Muhamad.PNG",
+      "judul_karya": "Poster Motivasi",
+      "judul_alternatif": "🖼 Alfian / Poster Motivasi",
+      "kepemilikan": "Muhamad Alfian",
+      "tanggal": "12-06-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2022/20220613-Desta-Nazza-Ash-Syafilla.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2022/cover/20220613-Desta.JPG",
+      "judul_karya": "Poster Motivasi",
+      "judul_alternatif": "🖼 Alfina / Poster Motivasi",
+      "kepemilikan": "Alfina Ramadani",
+      "tanggal": "13-06-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2022/20220613-Dwi-Umi-Rachmandani.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2022/cover/20220613-Dwi.PNG",
+      "judul_karya": "Poster Motivasi",
+      "judul_alternatif": "🖼 Dwi / Poster Motivasi",
+      "kepemilikan": "Dwi Umi Rachmandani",
+      "tanggal": "13-06-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2022/2022-Poster-Motivasi.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2022/cover/2022-Poster-Motivasi.JPG",
+      "judul_karya": "Poster Motivasi",
+      "judul_alternatif": "🖼 Multimedia / Poster Motivasi",
+      "kepemilikan": "Multimedia Smabara",
+      "tanggal": "20-04-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2022/220420-Shifa-Aulia-Nabila.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2022/cover/220420-Shifa.JPG",
+      "judul_karya": "Poster Motivasi",
+      "judul_alternatif": "🖼 Shifa / Poster Motivasi",
+      "kepemilikan": "Shifa Aulia Nabila",
+      "tanggal": "20-04-2022"
+    },
+
+## Poster ===========================================================================
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2023/20230116-Alfian.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2023/cover/20230116-Alfian.JPG",
+      "judul_karya": "Poster Hari Pramuka",
+      "judul_alternatif": "🖼 Alfian / Selamat Hari Pramuka",
+      "kepemilikan": "Muhamad Alfian",
+      "tanggal": "16-01-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2023/20230116-Devina-Faustine.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2023/cover/20230116-Devina.JPG",
+      "judul_karya": "Poster Camping",
+      "judul_alternatif": "🖼 Devina / Welcome to the Camping - Kegiatan Pramuka",
+      "kepemilikan": "Devina Faustine",
+      "tanggal": "16-01-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2023/20230116-Farra-Dhiya.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2023/cover/20230116-Farra.PNG",
+      "judul_karya": "Poster Lingkungan",
+      "judul_alternatif": "🖼 Kukira yang bawah transparan ternyata bukan 😓",
+      "kepemilikan": "Farra Dhiya Naysa Alhadynie",
+      "tanggal": "16-01-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2023/20230117-Renita-Oliviaa.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2023/cover/20230117-Renita.JPG",
+      "judul_karya": "Poster Hari Guru",
+      "judul_alternatif": "🖼 Renita / World Teacher's Day 👩‍🏫🧑‍🏫",
+      "kepemilikan": "Renita Olivia",
+      "tanggal": "17-01-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2023/Anita-Nur-Ramadani.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2023/cover/Anita.JPG",
+      "judul_karya": "Poster Lingkungan",
+      "judul_alternatif": "🖼 Anita / Mari Menanam Pohon Demi Bumi yang Sehat!",
+      "kepemilikan": "Anita Nur Ramadani",
+      "tanggal": "16-01-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2023/Global-Warming-Zen-Hidayah.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2023/cover/Poster-Zen.JPG",
+      "judul_karya": "Poster Global Warming",
+      "judul_alternatif": "🖼 Zen / STOP Global Warming!",
+      "kepemilikan": "Zen Hidayah Putra",
+      "tanggal": "23-01-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2023/Hemat-Energi-Muhammad-Arkhan-Pratama.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2023/cover/Poster-Muhammad.PNG",
+      "judul_karya": "Poster Hemat Energi",
+      "judul_alternatif": "🖼 Wisnu / Tolong matikan lampu saat Anda keluar..",
+      "kepemilikan": "Wisnu Maul",
+      "tanggal": "16-01-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2023/Poster-Ahmad-Yusuf-Mustofa.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2023/cover/Poster-Ahmad.JPG",
+      "judul_karya": "Poster Kesehatan",
+      "judul_alternatif": "🖼 Ahmad / Hari Kesehatan Nasional",
+      "kepemilikan": "Ahmad Yusuf Mustofa",
+      "tanggal": "18-01-2023"
+    },
+
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2024/20240527-Evan-Andika.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2024/cover/20240527-Evan.JPG",
+      "judul_karya": "Poster Sosial",
+      "judul_alternatif": "🖼 Evan / STOP BULLYING ✋",
+      "kepemilikan": "Evan Dwi Andika",
+      "tanggal": "27-05-2024"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2024/20240527-Muhammad-Dany.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2024/cover/20240527-Muhammad.PNG",
+      "judul_karya": "Poster Kreatif",
+      "judul_alternatif": "🖼 Dany / Hunter x Hunter",
+      "kepemilikan": "Muhammad Dany Caesar",
+      "tanggal": "27-05-2024"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2024/20240527-Retro.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2024/cover/20240527-Retro.JPG",
+      "judul_karya": "Poster Musikal Klasik",
+      "judul_alternatif": "🖼 Nanda / Music Retro (27 Mei)",
+      "kepemilikan": "Nanda Arief Setyabudi",
+      "tanggal": "27-05-2024"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Poster/2024/20240527-Ulya-Zhafira.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Poster/2024/cover/20240527-Ulya.JPG",
+      "judul_karya": "Poster Kesenian",
+      "judul_alternatif": "🖼 Ulya / Pagelaran Seni Tari Tradisional 💃",
+      "kepemilikan": "Ulya Zhafira",
+      "tanggal": "27-05-2024"
+    },
+
+## Sampul-Buku ==========================================================================
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/20221127-Ahmad-Yusuf-Mustofa.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/cover/20221127-Ahmad.JPG",
+      "judul_karya": "Sampul Buku - Belajar Praktis",
+      "judul_alternatif": "🖼 Ahmad / Belajar Praktis untuk SMA/MA Kelas X (ni bocah kreatif bener, banyak dari tugas-tugas yang dipajang di sini)",
+      "kepemilikan": "Ahmad Yusuf Mustofa",
+      "tanggal": "28-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/20221128-Adi-Cahyo.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/cover/20221128-Adi.JPG",
+      "judul_karya": "Sampul Buku - Belajar Praktis",
+      "judul_alternatif": "🖼 Adi / Belajar Praktis untuk SMA/MA Kelas XI Semester Genap",
+      "kepemilikan": "Adi Cahyo Winoto",
+      "tanggal": "29-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/20221128-Devina-Faustine.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/cover/20221128-Devina.JPG",
+      "judul_karya": "Sampul Novel - MICHIVEL",
+      "judul_alternatif": "🖼 Devina / Sampul Novel MICHIVEL beserta sinopsis",
+      "kepemilikan": "Devina Faustine",
+      "tanggal": "28-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/20221129-Levi-Erliana.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/cover/20221129-Levi.PNG",
+      "judul_karya": "Sampul Novel - saegar & kania",
+      "judul_alternatif": "🖼 Levi / Sampul Novel saegar & kania tampak depan",
+      "kepemilikan": "Levi Erliana",
+      "tanggal": "29-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/20221129-Vanya-Anggraeni.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/cover/20221129-Vanya.PNG",
+      "judul_karya": "Sampul Buku Interaktif Bahasa Indonesia",
+      "judul_alternatif": "🖼 Vanya / Jelajah Ilmu - Buku Interaktif Bahasa Indonesia untuk SMA/MA/SMK/MAK",
+      "kepemilikan": "Vanya Anggraeni",
+      "tanggal": "29-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/20221202-Calya-Talitha.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/cover/20221202-Calya.PNG",
+      "judul_karya": "Sampul Novel - Dia & Semesta",
+      "judul_alternatif": "🖼 Calya / Dia & Semesta (semisal rilis beneran udah langsung dibaca, dari judul keknya genre romance?)",
+      "kepemilikan": "Calya Talitha Yueda",
+      "tanggal": "02-12-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/B67529F-Rena-Indriani.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/cover/B67529F-Rena.PNG",
+      "judul_karya": "Sampul Buku - Seraph of the End",
+      "judul_alternatif": "🖼 Rena / Seraph of the End: L❤️️ve or H💔te?",
+      "kepemilikan": "Rena Indriani",
+      "tanggal": "29-11-2022"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/Mohamad-Risqiy-Al-Amin.PNG",
+      "cover": "./img/gallery/Desain-Grafis/Sampul-Buku/2022/cover/2022-Mohamad.PNG",
+      "judul_karya": "Sampul Buku - Kebun Raya Baturraden",
+      "judul_alternatif": "🖼 Risqiy / Kebun Raya Baturraden",
+      "kepemilikan": "Mohamad Risqiy Al-Amin",
+      "tanggal": "02-12-2022"
+    },
+
+## Desain-Kaos ==========================================================================
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Kaos/2023/20230213-Ahmad-Yusuf-Mustofa.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Kaos/2023/cover/20230213-Ahmad.JPG",
+      "judul_karya": "Kaos - Multimedia",
+      "judul_alternatif": "🖼 Ahmad / Desain Kaos Multimedia",
+      "kepemilikan": "Ahmad Yusuf Mustofa",
+      "tanggal": "27-02-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Kaos/2023/20230213-Farra-Dhiya.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Kaos/2023/cover/20230213-Farra.JPG",
+      "judul_karya": "Kaos - Kimetsu no Yaiba",
+      "judul_alternatif": "🖼 Farra / Desain Kaos Multimedia",
+      "kepemilikan": "Farra Dhiya Naysa Alhadynie",
+      "tanggal": "16-01-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Kaos/2023/20230213-Fathan-Syafiq-Leyla-Ameera.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Kaos/2023/cover/20230213-Fathan-Leyla.JPG",
+      "judul_karya": "Kaos - HU TAO",
+      "judul_alternatif": "🖼 Leyla / Desain Kaos HU TAO",
+      "kepemilikan": "Leyla Ameera Fahmeeda",
+      "tanggal": "13-02-2023"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Kaos/2023/20230213-Muhammad-Raziq-Aqilla.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Kaos/2023/cover/20230213-Muhammad.JPG",
+      "judul_karya": "Kaos - SPACEX",
+      "judul_alternatif": "🖼 Muhammad / Desain Kaos 'SPACEX: STARSHIP'",
+      "kepemilikan": "Muhammad Raziq Aqilla",
+      "tanggal": "13-02-2023"
+    },
+
+## Desain-Jersey ==========================================================================
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Jersey/2024/20240219-Caca.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Jersey/2024/cover/20240219-Caca.JPG",
+      "judul_karya": "Jersey Partai",
+      "judul_alternatif": "🖼 Pendukung Ganjar mari merapat 🙌",
+      "kepemilikan": "Calista Meyca Pramesti",
+      "tanggal": "19-02-2024"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Jersey/2024/20240219-Elllen-Jersey.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Jersey/2024/cover/20240219-Elllen.JPG",
+      "judul_karya": "Jersey Ellen",
+      "judul_alternatif": "🖼 Ellen / Desain Jersey - KDM 26TH, POWER UP!",
+      "kepemilikan": "Tri Ellennita Nurain",
+      "tanggal": "19-02-2024"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Jersey/2024/20240219-Faishal-A.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Jersey/2024/cover/20240219-Faishal.JPG",
+      "judul_karya": "Jersey Faishal",
+      "judul_alternatif": "🖼 Faishal / Desain Jersey - FAISHAL 69",
+      "kepemilikan": "Faishal Arkaaansyah Wardan",
+      "tanggal": "19-02-2024"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Jersey/2024/20240219-Muhammad-Dany.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Jersey/2024/cover/20240219-Muhammad.JPG",
+      "judul_karya": "Jersey EPOS",
+      "judul_alternatif": "🖼 Muhammad / Desain Jersey - EPOS: UPIN 99+",
+      "kepemilikan": "Muhammad Dany Caesar",
+      "tanggal": "19-02-2024"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Jersey/2024/20240219-Reswara-Adhyasta.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Jersey/2024/cover/20240219-Reswara.JPG",
+      "judul_karya": "Jersey Osimhen",
+      "judul_alternatif": "🖼 Reswara / Desain Jersey - OSIMHEN 9",
+      "kepemilikan": "Reswara Adhyasta",
+      "tanggal": "19-02-2024"
+    },
+    { 
+      "label": "desain-grafis",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Desain-Grafis/Jersey/2024/20240219-Yusuf-PTM-Baturraden.JPG",
+      "cover": "./img/gallery/Desain-Grafis/Jersey/2024/cover/20240219-Yusuf.JPG",
+      "judul_karya": "Jersey Joseph",
+      "judul_alternatif": "🖼 Ahmad / Desain Jersey - JOSEPH",
+      "kepemilikan": "Ahmad Yusuf Mustofa",
+      "tanggal": "24-02-2024"
+    },
+
+# Editing Foto ==========================================================================
+    {
+      "label": "editing-foto",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Editing-Foto/2021/20210522-Lutfiana-Nurrokhmatika.JPG",
+      "cover": "./img/gallery/Editing-Foto/2021/cover/20210522-Lutfiana.JPG",
+      "judul_karya": "Editing Foto - Senja Lautan",
+      "judul_alternatif": "📷 Lutfiana / Editing Foto dengan tema 'Senja Lautan'",
+      "kepemilikan": "Lutfiana Nurrokhmatika",
+      "tanggal": "10-06-2022"
+    },
+    {
+      "label": "editing-foto",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Editing-Foto/2021/20210909-Hana-Kartika-Putri.JPG",
+      "cover": "./img/gallery/Editing-Foto/2021/cover/20210909-Hana.JPG",
+      "judul_karya": "Editing Foto - Bayang Karsa",
+      "judul_alternatif": "📷 Hana / Bayang Karsa menggabungkan konsep bayangan (siluet) dan tekad (karsa) yang tergambar dalam kekuatan tiang besi di bawah langit sore.",
+      "kepemilikan": "Hana Kartika Putri",
+      "tanggal": "23-02-2022"
+    },
+    {
+      "label": "editing-foto",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Editing-Foto/2022/20220223-Alisa-Anjani.JPG",
+      "cover": "./img/gallery/Editing-Foto/2022/cover/20220223-Alisa.JPG",
+      "judul_karya": "Editing Foto - Panorama Sore",
+      "judul_alternatif": "📷 Alisa / Editing Foto dengan tema 'Panorama Sore'",
+      "kepemilikan": "Alisa Anjani",
+      "tanggal": "23-02-2022"
+    },
+    {
+      "label": "editing-foto",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Editing-Foto/2022/20220225-Zefa-Zenul-Haq.JPG",
+      "cover": "./img/gallery/Editing-Foto/2022/cover/20220225-Zefa.JPG",
+      "judul_karya": "Editing Foto - Bunga Tunggal",
+      "judul_alternatif": "📷 Zefa / Editing Foto dengan tema 'Bunga Tunggal'",
+      "kepemilikan": "Zefa Zenul Haq",
+      "tanggal": "25-02-2022"
+    },
+    {
+      "label": "editing-foto",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Editing-Foto/2022/20220228-Desta-Nazza-Ash-Syafilla.JPG",
+      "cover": "./img/gallery/Editing-Foto/2022/cover/20220228-Desta.JPG",
+      "judul_karya": "Editing Foto - Echoes of Silence",
+      "judul_alternatif": "📷 Desta / Editing Foto dengan tema 'Echoes of Silence' atau Gema Keheningan.",
+      "kepemilikan": "Desta Nazza Ash Syafilla",
+      "tanggal": "28-02-2022"
+    },
+    {
+      "label": "editing-foto",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Editing-Foto/2022/20220322-Dita-Nurliana.JPG",
+      "cover": "./img/gallery/Editing-Foto/2022/cover/20220322-Dita.JPG",
+      "judul_karya": "Editing Foto - Malam Merangkak",
+      "judul_alternatif": "📷 Dita / Editing Foto dengan tema 'Malam Merangkak'",
+      "kepemilikan": "Dita Nurliana",
+      "tanggal": "22-03-2022"
+    },
+    {
+      "label": "editing-foto",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Editing-Foto/2022/20220513-Tri-Agustiningsih.JPG",
+      "cover": "./img/gallery/Editing-Foto/2022/cover/20220513-Tri.JPG",
+      "judul_karya": "Editing Foto - Jejak Raga",
+      "judul_alternatif": "📷 Tri / Jejak Raga menggambarkan langkah yang kuat dan berenergi dalam setiap gerakan.",
+      "kepemilikan": "Tri Agustiningsih",
+      "tanggal": "10-06-2022"
+    },
+    {
+      "label": "editing-foto",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Editing-Foto/2022/20220610-Aldelia-Saviriani.JPG",
+      "cover": "./img/gallery/Editing-Foto/2022/cover/20220610-Aldelia.JPG",
+      "judul_karya": "Editing Foto - Teduh Tenang",
+      "judul_alternatif": "📷 Aldelia / Teduh Tenang menyiratkan suasana damai dan tenang di bawah langit yang teduh.",
+      "kepemilikan": "Aldelia Saviriani Putri",
+      "tanggal": "10-06-2022"
+    },
+
+## Editing-Video =============================================================================
+    {
+      "label": "editing-video",
+      "tipe": "portfolio__item__video","atribut": "play-btn video-popup","icon": "fa fa-play",
+      "preview": "https://www.youtube.com/watch?v=LXb3EKWsInQ",
+      "cover": "./img/gallery/blank.JPG",
+      "judul_karya": "Video ..",
+      "judul_alternatif": "▶️ ...",
+      "kepemilikan": "Nama",
+      "tanggal": "20-02-2022"
+    },
+
+# Partners ==========================================================================
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2021-futsal/2021-SFC-Concept.PNG",
+      "cover": "./img/gallery/Partners/2021-futsal/cover/2021-SFC-Concept.PNG",
+      "judul_karya": "Konsep Awal SFC 2021",
+      "judul_alternatif": "🖼 Konsep Awal Skor Pertandingan - SFC 2021",
+      "kepemilikan": "Multimedia Smabara",
+      "tanggal": "07-12-2021"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2021-futsal/2021-SFC.PNG",
+      "cover": "./img/gallery/Partners/2021-futsal/cover/2021-SFC.PNG",
+      "judul_karya": "SFC 2021",
+      "judul_alternatif": "🖼 Skor Pertandingan untuk SFC 2021",
+      "kepemilikan": "Multimedia Smabara",
+      "tanggal": "07-12-2021"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2021-futsal/2021-SFC-TopScore.PNG",
+      "cover": "./img/gallery/Partners/2021-futsal/cover/2021-SFC-TopScore.PNG",
+      "judul_karya": "SFC 2021 - Top Score",
+      "judul_alternatif": "🖼 Desain Skor Teratas dalam pertandingan SFC 2021",
+      "kepemilikan": "Multimedia Smabara",
+      "tanggal": "15-12-2021"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2021-futsal/2021-SFC-3rd.PNG",
+      "cover": "./img/gallery/Partners/2021-futsal/cover/2021-SFC-3rd.PNG",
+      "judul_karya": "SFC 2021 - Juara Ketiga",
+      "judul_alternatif": "🖼 Desain SFC 2021 untuk juara ketiga",
+      "kepemilikan": "Multimedia Smabara",
+      "tanggal": "15-12-2021"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2021-futsal/2021-SFC-2nd.PNG",
+      "cover": "./img/gallery/Partners/2021-futsal/cover/2021-SFC-2nd.PNG",
+      "judul_karya": "SFC 2021 - Juara Kedua",
+      "judul_alternatif": "🖼 Desain SFC 2021 untuk juara kedua",
+      "kepemilikan": "Multimedia Smabara",
+      "tanggal": "15-12-2021"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2021-futsal/2021-SFC-1st.PNG",
+      "cover": "./img/gallery/Partners/2021-futsal/cover/2021-SFC-1st.PNG",
+      "judul_karya": "SFC 2021 - Pemenang",
+      "judul_alternatif": "🖼 Desain SFC 2021 untuk juara pertama",
+      "kepemilikan": "Multimedia Smabara",
+      "tanggal": "15-12-2021"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__video","atribut": "play-btn video-popup","icon": "fa fa-play",
+      "preview": "https://drive.google.com/file/d/10-htc_IqVzarNTmtCquqEyPb0SNKXMop/preview",
+      "cover": "./img/gallery/Partners/2024-fotografi/cover/MMxFG.JPG",
+      "judul_karya": "Kunjungan Museum BRI",
+      "judul_alternatif": "▶️ Kolaborasi Ekstrakurikuler Multimedia dan Ekstrakurikuler Fotografi dalam rangka Outbound ke Museum Bank Rakyat Indonesia di Purwokerto.",
+      "kepemilikan": "Multimedia dan Fotografi",
+      "tanggal": "23-09-2023"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2024-osis/20240221-JERSEY-1.JPG",
+      "cover": "./img/gallery/Partners/2024-osis/cover/20240221-JERSEY-1.JPG",
+      "judul_karya": "Jersey Smabara 1",
+      "judul_alternatif": "🖼 Desain Jersey Smabara 1 dari kerjasama OSIS dan Ekstrakurikuler Multimedia",
+      "kepemilikan": "Multimedia dan OSIS",
+      "tanggal": "21-02-2024"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2024-osis/20240221-JERSEY-2.JPG",
+      "cover": "./img/gallery/Partners/2024-osis/cover/20240221-JERSEY-2.JPG",
+      "judul_karya": "Jersey Smabara 2",
+      "judul_alternatif": "🖼 Desain Jersey Smabara 2 dari kerjasama OSIS dan Ekstrakurikuler Multimedia",
+      "kepemilikan": "Multimedia dan OSIS",
+      "tanggal": "21-02-2024"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2024-osis/20240221-JERSEY-4.JPG",
+      "cover": "./img/gallery/Partners/2024-osis/cover/20240221-JERSEY-4.JPG",
+      "judul_karya": "Jersey Smabara 3",
+      "judul_alternatif": "🖼 Desain Jersey Smabara 3 dari kerjasama OSIS dan Ekstrakurikuler Multimedia",
+      "kepemilikan": "Multimedia dan OSIS",
+      "tanggal": "21-02-2024"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2024-osis/20240221-DEPAN-BELAKANG.JPG",
+      "cover": "./img/gallery/Partners/2024-osis/cover/20240221-DEPAN-BELAKANG.JPG",
+      "judul_karya": "Kaos Smabara - Depan Belakang",
+      "judul_alternatif": "🖼 Mockup Kaos Smabara Depan Belakang dari kerjasama OSIS dan Ekstrakurikuler Multimedia",
+      "kepemilikan": "Multimedia dan OSIS",
+      "tanggal": "21-02-2024"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2024-osis/20240221-BELAKANG-Krem.JPG",
+      "cover": "./img/gallery/Partners/2024-osis/cover/20240221-BELAKANG-Krem.JPG",
+      "judul_karya": "Kaos Smabara Huveel",
+      "judul_alternatif": "🖼 Mockup Kaos Smabara Huveel dari kerjasama OSIS dan Ekstrakurikuler Multimedia",
+      "kepemilikan": "Multimedia dan OSIS",
+      "tanggal": "21-02-2024"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2024-osis/20240221-BELAKANG-Putih.JPG",
+      "cover": "./img/gallery/Partners/2024-osis/cover/20240221-BELAKANG-Putih.JPG",
+      "judul_karya": "Kaos Smabara Semangat Viva",
+      "judul_alternatif": "🖼 Mockup Kaos Smabara Semangat Viva dari kerjasama OSIS dan Ekstrakurikuler Multimedia",
+      "kepemilikan": "Multimedia dan OSIS",
+      "tanggal": "21-02-2024"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2024-osis/20240221-POLO-1.JPG",
+      "cover": "./img/gallery/Partners/2024-osis/cover/20240221-POLO-1.JPG",
+      "judul_karya": "Kaos Polo 1",
+      "judul_alternatif": "🖼 Desain Kaos Polo ke-1 dari kerjasama OSIS dan Ekstrakurikuler Multimedia",
+      "kepemilikan": "Multimedia dan OSIS",
+      "tanggal": "21-02-2024"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2024-osis/20240221-POLO-2.JPG",
+      "cover": "./img/gallery/Partners/2024-osis/cover/20240221-POLO-2.JPG",
+      "judul_karya": "Kaos Polo 2",
+      "judul_alternatif": "🖼 Desain Kaos Polo ke-2 dari kerjasama OSIS dan Ekstrakurikuler Multimedia",
+      "kepemilikan": "Multimedia dan OSIS",
+      "tanggal": "21-02-2024"
+    },
+    {
+      "label": "partners",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Partners/2024-osis/20240221-POLO-3.JPG",
+      "cover": "./img/gallery/Partners/2024-osis/cover/20240221-POLO-3.JPG",
+      "judul_karya": "Kaos Polo 3",
+      "judul_alternatif": "🖼 Desain Kaos Polo ke-3 dari kerjasama OSIS dan Ekstrakurikuler Multimedia",
+      "kepemilikan": "Multimedia dan OSIS",
+      "tanggal": "21-02-2024"
+    },
+
+# Official ==========================================================================
+    {
+      "label": "official",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Official/2022-Kemerdekaan-77.JPG",
+      "cover": "./img/gallery/Official/cover/2022-Kemerdekaan-77.JPG",
+      "judul_karya": "Poster HUT RI ke-77",
+      "judul_alternatif": "🖼 Poster Hari Ulang Tahun Republik Indonesia ke-77 / CorelDraw",
+      "kepemilikan": "Multimedia Smabara",
+      "tanggal": "17-08-2022"
+    },
+    {
+      "label": "official",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Official/2022-Recrutment.PNG",
+      "cover": "./img/gallery/Official/cover/2022-Recrutment.PNG",
+      "judul_karya": "Poster Open Recruitment 2022",
+      "judul_alternatif": "🖼 Poster Open Recruitment 2022 / Canva",
+      "kepemilikan": "Multimedia Smabara",
+      "tanggal": "07-07-2022"
+    },
+    {
+      "label": "official",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Official/2022-Tahun-Baru-2023.PNG",
+      "cover": "./img/gallery/Official/cover/2022-Tahun-Baru-2023.PNG",
+      "judul_karya": "Poster Tahun Baru 2023",
+      "judul_alternatif": "🖼 Poster Tahun Baru 2023 / CorelDraw",
+      "kepemilikan": "Multimedia Smabara",
+      "tanggal": "25-12-2022"
+    },
+    {
+      "label": "official",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Official/2023-Imlek23.PNG",
+      "cover": "./img/gallery/Official/cover/2023-Imlek23.PNG",
+      "judul_karya": "Poster Perayaan Imlek 2023",
+      "judul_alternatif": "🖼 Poster Perayaan Imlek 2023 / Canva",
+      "kepemilikan": "Multimedia Smabara",
+      "tanggal": "16-01-2023"
+    },
+    {
+      "label": "official",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Official/2024-Recrutment.PNG",
+      "cover": "./img/gallery/Official/cover/2024-Recrutment.PNG",
+      "judul_karya": "Poster Open Recruitment 2024",
+      "judul_alternatif": "🖼 Poster Open Recruitment 2024",
+      "kepemilikan": "Multimedia Smabara",
+      "tanggal": "06-07-2024"
+    },
+    {
+      "label": "official",
+      "tipe": "portfolio__item__image","atribut": "img-preview","icon": "fa fa-eye",
+      "preview": "./img/gallery/Official/2024-Short-Movie.PNG",
+      "cover": "./img/gallery/Official/cover/2024-Short-Movie.PNG",
+      "judul_karya": "Poster Short Movie",
+      "judul_alternatif": "🖼 Poster Labyrinth Of The Past",
+      "kepemilikan": "Multimedia Smabara",
+      "tanggal": "04-08-2024"
+    },
+    {
+      "label": "official",
+      "tipe": "portfolio__item__video","atribut": "play-btn video-popup","icon": "fa fa-play",
+      "preview": "https://www.youtube.com/watch?v=veZ7nfmYCfQ",
+      "cover": "./img/gallery/Official/cover/2024-Vid-Teaser.PNG",
+      "judul_karya": "Teaser Labyrinth Of The Past",
+      "judul_alternatif": "▶️ Karya digital Ekstrakurikuler Multimedia dan Ekstrakurikuler SBSI SMAN 1 Baturraden",
+      "kepemilikan": "Misteri dan Psikologi",
+      "tanggal": "09-07-2024"
+    },
+    {
+      "label": "official",
+      "tipe": "portfolio__item__video","atribut": "play-btn video-popup","icon": "fa fa-play",
+      "preview": "https://www.youtube.com/watch?v=mv50gq4V9hU",
+      "cover": "./img/gallery/Official/cover/2024-Vid-Short-Movie.PNG",
+      "judul_karya": "Labyrinth Of The Past",
+      "judul_alternatif": "▶️ Tonton selengkapnya hanya di YouTube",
+      "kepemilikan": "Misteri dan Psikologi",
+      "tanggal": "19-07-2024"
+    }
