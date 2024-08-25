@@ -290,7 +290,29 @@ document.addEventListener('DOMContentLoaded', function() {
             if (!response.ok) throw new Error('Failed to load gallery data');
             
             let data = await response.json();
-            data.sort((a, b) => new Date(b.tanggal.split('-').reverse().join('-')) - new Date(a.tanggal.split('-').reverse().join('-')));
+
+            // Urutkan berdasarkan tanggal dari terbaru ke terlama
+            data.sort((a, b) => {
+                const dateB = new Date(b.tanggal.split('-').reverse().join('-'));
+                const dateA = new Date(a.tanggal.split('-').reverse().join('-'));
+                if (dateA - dateB !== 0) {
+                    return dateB - dateA;
+                }
+    
+                // Jika tanggal sama, urutkan nama dari Z ke A
+                const [firstNameA, middleNameA = '', lastNameA = ''] = a.kepemilikan.split(' ');
+                const [firstNameB, middleNameB = '', lastNameB = ''] = b.kepemilikan.split(' ');
+    
+                if (firstNameA !== firstNameB) {
+                    return firstNameB.localeCompare(firstNameA);
+                }
+    
+                if (middleNameA !== middleNameB) {
+                    return middleNameB.localeCompare(middleNameA);
+                }
+    
+                return lastNameB.localeCompare(lastNameA);
+            });
 
             galleryContainer.innerHTML = ''; // Hapus konten yang ada
 
